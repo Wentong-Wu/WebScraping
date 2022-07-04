@@ -9,14 +9,14 @@ class Scraper:
         
     def load_and_accept_cookies() -> webdriver.Edge:
         driver = webdriver.Edge() 
-        URL = "https://www.zoopla.co.uk/new-homes/property/london/?q=London&results_sort=newest_listings&search_source=new-homes&page_size=25&pn=1&view_type=list"
+        URL = "https://store.eu.square-enix-games.com/en_GB/"
         driver.get(URL)
         delay = 10
         try:
-            WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="gdpr-consent-notice"]')))
+            WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
             print("Frame Ready!")
-            driver.switch_to.frame('gdpr-consent-notice')
-            accept_cookies_button = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="save"]')))
+            #driver.switch_to.frame('onetrust-banner-sdk')
+            accept_cookies_button = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
             print("Accept Cookies Button Ready!")
             accept_cookies_button.click()
             time.sleep(1)
