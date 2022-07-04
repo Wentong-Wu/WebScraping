@@ -1,2 +1,30 @@
 from selenium import webdriver
-driver = webdriver.Edge()
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.by import By
+from selenium.common.exceptions import TimeoutException
+import time
+
+class Scraper:
+        
+    def load_and_accept_cookies() -> webdriver.Edge:
+        driver = webdriver.Edge() 
+        URL = "https://www.zoopla.co.uk/new-homes/property/london/?q=London&results_sort=newest_listings&search_source=new-homes&page_size=25&pn=1&view_type=list"
+        driver.get(URL)
+        delay = 10
+        try:
+            WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="gdpr-consent-notice"]')))
+            print("Frame Ready!")
+            driver.switch_to.frame('gdpr-consent-notice')
+            accept_cookies_button = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="save"]')))
+            print("Accept Cookies Button Ready!")
+            accept_cookies_button.click()
+            time.sleep(1)
+        except TimeoutException:
+            print("Loading took too much time!")
+
+        return driver 
+pass
+
+web = Scraper
+web.load_and_accept_cookies()
