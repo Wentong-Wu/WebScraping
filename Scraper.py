@@ -18,11 +18,10 @@ class Scraper:
             #driver.switch_to.frame('onetrust-banner-sdk')
             accept_cookies_button = WebDriverWait(driver, delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
             print("Accept Cookies Button Ready!")
+            time.sleep(3)
             accept_cookies_button.click()
-            time.sleep(1)
         except TimeoutException:
             print("Loading took too much time!")
-
         return driver 
 pass
 
