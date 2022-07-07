@@ -29,20 +29,21 @@ class Scraper:
             accept_cookies_button.click()
         except TimeoutException:
             print("Loading took too much time!")
+        
         pass 
 
-    # def load_and_accept_cookies(self):
-    #     try:
-    #         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
-    #         print("Frame Ready!")
-    #         #driver.switch_to.frame('onetrust-banner-sdk')
-    #         accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
-    #         print("Accept Cookies Button Ready!")
-    #         time.sleep(3)
-    #         accept_cookies_button.click()
-    #     except TimeoutException:
-    #         print("Loading took too much time!")
-    #     return self.driver
+    def load_and_accept_cookies(self):
+        try:
+            WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
+            print("Frame Ready!")
+            #driver.switch_to.frame('onetrust-banner-sdk')
+            accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
+            print("Accept Cookies Button Ready!")
+            time.sleep(3)
+            accept_cookies_button.click()
+        except TimeoutException:
+            print("Loading took too much time!")
+        return self.driver
     
     def get_merch_product(self, list_of_links):
         #self.load_and_accept_cookies()
@@ -53,9 +54,8 @@ class Scraper:
         a.move_to_element(m).perform()
         n = self.driver.find_element(By.XPATH,'//li[@id="all-merchandise"]')
         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-merchandise"]')))
-        
         a.move_to_element(n).click().perform()
-        
+        time.sleep(2)
 
         #Scroll all the way down to get all the products
         length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
@@ -68,10 +68,9 @@ class Scraper:
                 page_end=True
 
         #Gets all the link to the products
-        time.sleep(2)
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
-            list_of_links.append(elem)
+            list_of_links.append(elem.get_attribute('href'))
         time.sleep(3)
         return list_of_links
     
@@ -85,6 +84,7 @@ class Scraper:
         n = self.driver.find_element(By.XPATH,'//li[@id="all-games"]')
         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-games"]')))
         a.move_to_element(n).click().perform()
+        time.sleep(2)
         #Scroll all the way down to get all the products
         length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
         page_end = False
@@ -96,47 +96,19 @@ class Scraper:
                 page_end=True
 
         #Gets all the link to the products
-        time.sleep(2)
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
-            list_of_links.append(elem)
+            list_of_links.append(elem.get_attribute('href'))
         time.sleep(3)
         return list_of_links
-
-    def get_sale():
-        driver = webdriver.Edge()
-        URL = "https://store.eu.square-enix-games.com/en_GB/digital-sale"
-        driver.get(URL)
-        time.sleep(5)
-        length_of_page = driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
-        page_end = False
-        while(page_end==False):
-            last_length_page = length_of_page
-            time.sleep(3)
-            length_of_page = driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
-            if last_length_page==length_of_page:
-                page_end=True
     
-    def get_all_games():
-        driver = webdriver.Edge()
-        URL = "https://store.eu.square-enix-games.com/en_GB/games/all-games"
-        driver.get(URL)
-        time.sleep(5)
-        length_of_page = driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
-        page_end = False
-        while(page_end==False):
-            last_length_page = length_of_page
-            time.sleep(3)
-            length_of_page = driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
-            if last_length_page==length_of_page:
-                page_end=True
-    
+    def get_all_product_links(self, list_of_links=[]):
+        self.get_game_product(list_of_links)
+        self.get_merch_product(list_of_links)
+        return list_of_links
 
 if __name__ == "__main__":
-    list_of_links = []
     web = Scraper()
-    list_of_links=web.get_game_product(list_of_links)
-    list_of_links=web.get_merch_product(list_of_links)
-    print(len(list_of_links))
+    print(len(web.get_all_product_links()))
     pass
 
