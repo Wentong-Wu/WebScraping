@@ -1,6 +1,8 @@
 from argparse import Action
 from cgi import print_arguments
 from lib2to3.pgen2 import driver
+from os import link
+from re import M
 from turtle import delay
 from unicodedata import name
 import webbrowser
@@ -29,21 +31,20 @@ class Scraper:
             accept_cookies_button.click()
         except TimeoutException:
             print("Loading took too much time!")
-        
         pass 
 
-    def load_and_accept_cookies(self):
-        try:
-            WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
-            print("Frame Ready!")
-            #driver.switch_to.frame('onetrust-banner-sdk')
-            accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
-            print("Accept Cookies Button Ready!")
-            time.sleep(3)
-            accept_cookies_button.click()
-        except TimeoutException:
-            print("Loading took too much time!")
-        return self.driver
+    # def load_and_accept_cookies(self):
+    #     try:
+    #         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
+    #         print("Frame Ready!")
+    #         #driver.switch_to.frame('onetrust-banner-sdk')
+    #         accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
+    #         print("Accept Cookies Button Ready!")
+    #         time.sleep(3)
+    #         accept_cookies_button.click()
+    #     except TimeoutException:
+    #         print("Loading took too much time!")
+    #     return self.driver
     
     def get_merch_product(self, list_of_links):
         #self.load_and_accept_cookies()
@@ -105,10 +106,56 @@ class Scraper:
     def get_all_product_links(self, list_of_links=[]):
         self.get_game_product(list_of_links)
         self.get_merch_product(list_of_links)
+        self.all_links = list_of_links
         return list_of_links
+
+    def get_one_data(self, one_link):
+        #get pass age restriction if there is any
+        self.driver.get(one_link)
+        try:
+            WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="birthday_popup"]')))
+            print("Age Validation")
+            day_selection = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@data-internal-id="birthday-day"]')))
+            time.sleep(3)
+            day_selection.click()
+            a = ActionChains(self.driver)
+            m = self.driver.find_element(By.LINK_TEXT, "1") #Breaks here
+            time.sleep(1)
+            a.move_to_element(m).click().perform()
+            time.sleep(1)
+
+            month_selection = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@data-internal-id="birthday-month"]')))
+            time.sleep(3)
+            month_selection.click()
+
+            a = ActionChains(self.driver)
+            m = self.driver.find_element(By.LINK_TEXT, "January")
+            time.sleep(1)
+            a.move_to_element(m).click().perform()
+            time.sleep(1)
+
+            year_selection = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@data-internal-id="birthday-year"]')))
+            time.sleep(3)
+            year_selection.click()
+
+            a = ActionChains(self.driver)
+            m = self.driver.find_element(By.XPATH, "2004")
+            time.sleep(1)
+            a.move_to_element(m).click().perform()
+            time.sleep(1)
+        except TimeoutException:
+            print("Content Valid")
+        #get data from the page
+        pass
+
+    def get_all_data(self):
+        self.all_links = web.get_all_product_links()
+        #loop get_one_data with all the data
+        self.get_one_data(self.all_links[0])
+        pass
 
 if __name__ == "__main__":
     web = Scraper()
-    print(len(web.get_all_product_links()))
+    web.get_all_data()
     pass
 
