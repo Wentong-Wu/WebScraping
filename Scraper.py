@@ -114,38 +114,19 @@ class Scraper:
         self.driver.get(one_link)
         try:
             WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="birthday_popup"]')))
-            print("Age Validation")
-            day_selection = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@data-internal-id="birthday-day"]')))
-            time.sleep(3)
-            day_selection.click()
-            a = ActionChains(self.driver)
-            m = self.driver.find_element(By.LINK_TEXT, "1") #Breaks here
             time.sleep(1)
-            a.move_to_element(m).click().perform()
-            time.sleep(1)
-
-            month_selection = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@data-internal-id="birthday-month"]')))
-            time.sleep(3)
-            month_selection.click()
-
-            a = ActionChains(self.driver)
-            m = self.driver.find_element(By.LINK_TEXT, "January")
-            time.sleep(1)
-            a.move_to_element(m).click().perform()
-            time.sleep(1)
-
-            year_selection = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@data-internal-id="birthday-year"]')))
-            time.sleep(3)
-            year_selection.click()
-
-            a = ActionChains(self.driver)
-            m = self.driver.find_element(By.XPATH, "2004")
-            time.sleep(1)
-            a.move_to_element(m).click().perform()
-            time.sleep(1)
+            self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-day']/option[text()='1']").click()
+            self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
+            self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
+            self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
         except TimeoutException:
             print("Content Valid")
         #get data from the page
+        product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
+        product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
+        #product_status
+        #product_image
+        print(product_title,product_price)
         pass
 
     def get_all_data(self):
