@@ -1,6 +1,7 @@
 from argparse import Action
 from cgi import print_arguments
 from lib2to3.pgen2 import driver
+from math import prod
 from os import link
 from re import M
 from turtle import delay
@@ -84,6 +85,7 @@ class Scraper:
         a.move_to_element(m).perform()
         n = self.driver.find_element(By.XPATH,'//li[@id="all-games"]')
         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-games"]')))
+        time.sleep(1)
         a.move_to_element(n).click().perform()
         time.sleep(2)
         #Scroll all the way down to get all the products
@@ -109,7 +111,7 @@ class Scraper:
         self.all_links = list_of_links
         return list_of_links
 
-    def get_one_data(self, one_link):
+    def get_one_data(self, one_link,product_single_dict):
         #get pass age restriction if there is any
         self.driver.get(one_link)
         try:
@@ -123,16 +125,28 @@ class Scraper:
             print("Content Valid")
         #get data from the page
         product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
-        product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
+        try:
+            product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
+        except:
+            product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
         #product_status
+        product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).get_attribute("textContent"))
         #product_image
-        print(product_title,product_price)
-        pass
+        product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
+        product_single_dict["title"] = product_title
+        product_single_dict["price"] = product_price
+        product_single_dict["status"] = product_status
+        product_single_dict["image"] = product_image
+        return product_single_dict
 
     def get_all_data(self):
         self.all_links = web.get_all_product_links()
+        product_dict = [{}]
+        product_single_dict = {}
         #loop get_one_data with all the data
-        self.get_one_data(self.all_links[0])
+        product_dict.append(self.get_one_data(self.all_links[0],product_single_dict))
+        product_single_dict.clear()
+        print(product_dict[0])
         pass
 
 if __name__ == "__main__":
