@@ -74,7 +74,6 @@ class Scraper:
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
             list_of_links.append(elem.get_attribute('href'))
-        time.sleep(3)
         return list_of_links
     
     def get_game_product(self, list_of_links):
@@ -104,7 +103,6 @@ class Scraper:
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
             list_of_links.append(elem.get_attribute('href'))
-        time.sleep(3)
         return list_of_links
     
     def get_all_product_links(self, list_of_links=[]):
@@ -117,8 +115,8 @@ class Scraper:
         #get pass age restriction if there is any
         self.driver.get(one_link)
         try:
-            WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="birthday_popup"]')))
-            time.sleep(1)
+            # WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="birthday_popup"]')))
+            # time.sleep(1)
             self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-day']/option[text()='1']").click()
             self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
             self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
@@ -154,4 +152,3 @@ if __name__ == "__main__":
     web = Scraper()
     web.get_all_data()
     pass
-
