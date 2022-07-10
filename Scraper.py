@@ -17,8 +17,8 @@ import time
 
 class Scraper:
 
-    def __init__(self) -> webdriver.Edge:
-        self.driver = webdriver.Edge() 
+    def __init__(self) -> webdriver.Chrome():
+        self.driver = webdriver.Chrome() 
         self.URL = "https://store.eu.square-enix-games.com/en_GB/"
         self.driver.get(self.URL)
         self.delay = 10
@@ -121,7 +121,7 @@ class Scraper:
             self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
             self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
             self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
-        except TimeoutException:
+        except:
             print("Content Valid")
         #get data from the page
         product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
