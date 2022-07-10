@@ -115,7 +115,6 @@ class Scraper:
 
     def get_one_data(self, one_link,product_single_dict):
         #get pass age restriction if there is any
-        time.sleep(1)
         self.driver.get(one_link)
         try:
             WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="birthday_popup"]')))
