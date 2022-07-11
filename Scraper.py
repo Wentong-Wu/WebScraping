@@ -8,6 +8,7 @@ from re import M
 from turtle import delay
 from unicodedata import name
 import webbrowser
+import uuid
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -110,6 +111,7 @@ class Scraper:
     def get_one_data(self, one_link,product_single_dict):
         #get pass age restriction if there is any
         self.driver.get(one_link)
+        
         if(self.age_restriction_pass == False):
             try:
                 self.get_age_restriction()
@@ -117,23 +119,34 @@ class Scraper:
                 print("Age Restriction Passed")
             except:
                 print("Age Restriction Not Passed")
+        try:
+            self.driver.find_element(By.XPATH, "//a[@data-target='#product-details']").click()
+        except:
+            self.driver.find_element(By.XPATH, "//button[@class='btn dropdown-toggle']").click()
+            self.driver.find_element(By.XPATH, "//a[@class='dropdown-item']").click()
+            one_link = self.driver.current_url
         #get data from the page
         product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
         # try:
         #     product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
         # except:
+        #product_price
         product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
         #product_status
-        try:
-            product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).get_attribute("textContent"))
-        except:
-            product_status = "Pre-Order"
+        product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).get_attribute("textContent"))
         #product_image
         product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
+        #product-SKU
+        product_SKU = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
+        
+        print(product_SKU)
         product_single_dict["title"] = product_title
         product_single_dict["price"] = product_price
         product_single_dict["status"] = product_status
         product_single_dict["image"] = product_image
+        product_single_dict["SKU"] = product_SKU
+        product_single_dict["Link"] = one_link
+        product_single_dict["UUID"] = uuid.uuid4().hex
         print("Content Valid")
         return product_single_dict
 
@@ -143,7 +156,7 @@ class Scraper:
         for link in self.all_links:
             product_single_dict = self.get_one_data(link,product_single_dict)
             product_dict.append(product_single_dict)
-        print(product_dict)
+        print(len(product_dict))
 
 if __name__ == "__main__":
     web = Scraper()
