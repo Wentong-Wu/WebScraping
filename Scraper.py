@@ -2,6 +2,7 @@ from argparse import Action
 from cgi import print_arguments
 from lib2to3.pgen2 import driver
 from math import prod
+from operator import truediv
 from os import link
 from re import M
 from turtle import delay
@@ -18,6 +19,7 @@ import time
 class Scraper:
 
     def __init__(self) -> webdriver.Chrome():
+        self.age_restriction_pass = False
         self.driver = webdriver.Chrome() 
         self.URL = "https://store.eu.square-enix-games.com/en_GB/"
         self.driver.get(self.URL)
@@ -28,7 +30,7 @@ class Scraper:
             #driver.switch_to.frame('onetrust-banner-sdk')
             accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
             print("Accept Cookies Button Ready!")
-            time.sleep(3)
+            time.sleep(1)
             accept_cookies_button.click()
         except TimeoutException:
             print("Loading took too much time!")
@@ -48,18 +50,12 @@ class Scraper:
     #     return self.driver
     
     def get_merch_product(self, list_of_links):
-        #self.load_and_accept_cookies()
-        time.sleep(1)
-        #elements = self.driver.find_elements(By.XPATH,'//a[@class="product-link-box"]')
+
         a = ActionChains(self.driver)
         m = self.driver.find_element(By.XPATH,'//li[@id="merchandise"]')
         a.move_to_element(m).perform()
-        time.sleep(1)
-        #n = self.driver.find_element(By.XPATH,'//li[@id="all-merchandise"]')
         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-merchandise"]'))).click()
-        #a.move_to_element(n).click().perform()
         time.sleep(1)
-
         #Scroll all the way down to get all the products
         length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
         page_end = False
@@ -77,17 +73,10 @@ class Scraper:
         return list_of_links
     
     def get_game_product(self, list_of_links):
-        #self.load_and_accept_cookies()
-        time.sleep(1)
-        #elements = self.driver.find_elements(By.XPATH,'//a[@class="product-link-box"]')
         a = ActionChains(self.driver)
         m = self.driver.find_element(By.XPATH,'//li[@id="games"]')
         a.move_to_element(m).perform()
-        time.sleep(1)
-        #n = self.driver.find_element(By.XPATH,'//li[@id="all-games"]')
         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-games"]'))).click()
-        
-        #a.move_to_element(n).click().perform()
         time.sleep(1)
         #Scroll all the way down to get all the products
         length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
@@ -111,32 +100,41 @@ class Scraper:
         self.all_links = list_of_links
         return list_of_links
 
+    def get_age_restriction(self):
+        self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-day']/option[text()='1']").click()
+        self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
+        self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
+        self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
+        pass
+
     def get_one_data(self, one_link,product_single_dict):
         #get pass age restriction if there is any
         self.driver.get(one_link)
-        try:
-            # WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="birthday_popup"]')))
-            # time.sleep(1)
-            self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-day']/option[text()='1']").click()
-            self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
-            self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
-            self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
-        except:
-            print("Content Valid")
+        if(self.age_restriction_pass == False):
+            try:
+                self.get_age_restriction()
+                self.age_restriction_pass = True
+                print("Age Restriction Passed")
+            except:
+                print("Age Restriction Not Passed")
         #get data from the page
         product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
-        try:
-            product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
-        except:
-            product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
+        # try:
+        #     product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
+        # except:
+        product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
         #product_status
-        product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).get_attribute("textContent"))
+        try:
+            product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).get_attribute("textContent"))
+        except:
+            product_status = "Pre-Order"
         #product_image
         product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         product_single_dict["title"] = product_title
         product_single_dict["price"] = product_price
         product_single_dict["status"] = product_status
         product_single_dict["image"] = product_image
+        print("Content Valid")
         return product_single_dict
 
     def get_all_data(self,product_dict = [],product_single_dict = {}):
@@ -145,7 +143,6 @@ class Scraper:
         for link in self.all_links:
             product_single_dict = self.get_one_data(link,product_single_dict)
             product_dict.append(product_single_dict)
-            product_single_dict.clear()
         print(product_dict)
 
 if __name__ == "__main__":
