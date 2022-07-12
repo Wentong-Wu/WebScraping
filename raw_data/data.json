@@ -1,0 +1,26 @@
+[
+    {
+        "title": "CHRONO CROSS: THE RADICAL DREAMERS EDITION [STEAM]",
+        "price": " £15.99 ",
+        "status": "ADD TO CART",
+        "image": [
+            "https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/f58fb71fef47d7b8f3d709ed62a7fee0_KR_350.png",
+            "https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/f58fb71fef47d7b8f3d709ed62a7fee0_KR_700.png"
+        ],
+        "SKU": "CHRONOCSTEAM",
+        "Link": "https://store.eu.square-enix-games.com/en_GB/product/725931/chrono-cross-the-radical-dreamers-edition-steam",
+        "UUID": "239ae75901294d5fa09af512eae39bdb"
+    },
+    {
+        "title": "FINAL FANTASY VII REMAKE - 1st Class Edition [PS4]",
+        "price": " £259.99 ",
+        "status": "ADD TO CART",
+        "image": [
+            "https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/5a0481d5bdbd959e250b13ee4fd830c5_KR_350.jpg",
+            "https://cdn-prod.scalefast.com/public/assets/img/resized/squareenix-store-v3/5a0481d5bdbd959e250b13ee4fd830c5_KR_700.jpg"
+        ],
+        "SKU": "SFF7R4EN03_C",
+        "Link": "https://store.eu.square-enix-games.com/en_GB/product/564495/final-fantasy-vii-remake-1st-class-edition-ps4",
+        "UUID": "598a227e36ac42d7aedcb49c3f3aaa1c"
+    }
+]
