@@ -6,4 +6,4 @@
 
 ## Milestone 2: Scrape all the product links
 
-- Collected all the data and stored it as a dictionary: title, price, status, images, SKU (ID), UUID (Randomly Generated ID). Use the dictionary and convert it into raw data using json file and store it into a folder. Download all the images from the product image and store it all into a image folder.
+- Collected all the data and stored it as a dictionary: title, price, status, images, SKU (Product ID), UUID (Randomly Generated ID). Use the dictionary and convert it into raw data using json file and store it into a folder. Download all the images from the product image and store it all into a image folder.
