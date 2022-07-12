@@ -11,5 +11,5 @@
 
 - Collected all the data and stored it as a dictionary: title, price, status, images, SKU (Product ID), UUID (Randomly Generated ID). Use the dictionary and convert it into raw data using json file and store it into a folder. Download all the images from the product image and store it all into a image folder.
 - Used dictionary to store all the data so that it can be imported into json file more easier.
-- Used v4 UUID to generate a unique ID. Eventhough v4 UUID does not 100% generates a unique ID but with 128bit of data being randomized you can assure that 99.99% of the time will be unique.
+- Used v4 UUID to generate a unique ID. Eventhough v4 UUID does not 100% generates a unique ID but with 32 bit of data being randomized you can assure that 99.99% of the time will be unique.
 - Downloaded all the image and all the raw_data so that in case website URL changes, we will have a reference to the images and data.
