@@ -147,7 +147,6 @@ class Scraper:
         product_single_dict["SKU"] = product_SKU
         product_single_dict["Link"] = one_link
         product_single_dict["UUID"] = uuid.uuid4().hex
-        print("Content Valid")
         return product_single_dict
 
     def get_all_data(self,product_dict = [],product_single_dict = {}):
