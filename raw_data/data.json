@@ -9,7 +9,8 @@
         ],
         "SKU": "CCASESTEAM",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725946/the-centennial-case-a-shijima-story-steam",
-        "UUID": "9ed443751e9c410591ec31068f3c9070"
+        "UUID": "5a838ca6171743059b1285b3df9b68e2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "CHRONO CROSS: THE RADICAL DREAMERS EDITION [STEAM]",
@@ -21,7 +22,8 @@
         ],
         "SKU": "CHRONOCSTEAM",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725931/chrono-cross-the-radical-dreamers-edition-steam",
-        "UUID": "077c56b0be9948c39c8a2b4e58f23cb7"
+        "UUID": "f30666d309a649e5bd32e51c3d86775d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "KINGDOM HEARTS HD 2.8 FINAL CHAPTER PROLOGUE [PS4]",
@@ -33,7 +35,8 @@
         ],
         "SKU": "SKH284EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/436135/kingdom-hearts-hd-28-final-chapter-prologue-ps4",
-        "UUID": "e7144a899fc74a41a23fc83bac65386b"
+        "UUID": "63d9b4301a7a4e99a370e53f1e25e44e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "JUST CAUSE 3 - Gold Edition [PS4]",
@@ -45,7 +48,8 @@
         ],
         "SKU": "SJC3G4EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/441848/just-cause-3-gold-edition-ps4",
-        "UUID": "11b0f3f3fe874e76acded6044e93e8d2"
+        "UUID": "c8461602a29d4af4a83d5e947655af8f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY® XII THE ZODIAC AGE - COLLECTOR'S EDITION [PS4]",
@@ -57,7 +61,8 @@
         ],
         "SKU": "SFFZA4EN05_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/440367/final-fantasy-xii-the-zodiac-age-collector-s-edition-ps4",
-        "UUID": "d92f5eeed5a842a0823d674fba2812a2"
+        "UUID": "b8e1d78a2b894caaa61e2cef2564f06f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VII REMAKE - Deluxe Edition [PS4]",
@@ -69,7 +74,8 @@
         ],
         "SKU": "SFF7R4EN02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/564479/final-fantasy-vii-remake-deluxe-edition-ps4",
-        "UUID": "10e0a5b128644ec9b991db3678ea375b"
+        "UUID": "41b48b856187438bac1df17290d83f80",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VII REMAKE - 1st Class Edition [PS4]",
@@ -81,7 +87,8 @@
         ],
         "SKU": "SFF7R4EN03_C",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/564495/final-fantasy-vii-remake-1st-class-edition-ps4",
-        "UUID": "187675bb5722422f9220cc568db1a285"
+        "UUID": "414a879eb8bb488d80e86674c21c3bb2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Secret of Mana [PS4]",
@@ -93,7 +100,8 @@
         ],
         "SKU": "SSEMA4EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/464478/secret-of-mana-ps4",
-        "UUID": "4addcf3a438342d48b00be167ea6668b"
+        "UUID": "bc715ecf912e49f39207c21cd4d20c54",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VII REMAKE [PS4]",
@@ -105,7 +113,8 @@
         ],
         "SKU": "SFF7R4EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/564463/final-fantasy-vii-remake-ps4",
-        "UUID": "33e5d30ad05247cb85a5dbcd79dd29c7"
+        "UUID": "5795a8083cf7480aa3e5674bf52214c8",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "DEUS EX : THE FALL [PC DOWNLOAD]",
@@ -117,7 +126,8 @@
         ],
         "SKU": "1621",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/304183/deus-ex-the-fall-pc-download",
-        "UUID": "a586d164ecee4bc1a2839e4ee1d395dc"
+        "UUID": "36be435c79434eccbc4fb975084a21a2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Life is Strange 2 - Episode 1 [PC Download]",
@@ -129,7 +139,8 @@
         ],
         "SKU": "LIS2EP1PCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/500697/life-is-strange-2-episode-1-pc-download",
-        "UUID": "e90bd03a9357408688d408faf9fb8e91"
+        "UUID": "1cbb4a3f815f4fde9b2192b441880dba",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Life is Strange 2 - Episode 5 [DLC]",
@@ -141,7 +152,8 @@
         ],
         "SKU": "LIS2EP5PCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/597125/life-is-strange-2-episode-5-dlc",
-        "UUID": "2030327c2be6421b84b4faa9684a8e5e"
+        "UUID": "48ccca7cea3c45bc8f066d79ed06c03e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Life is Strange 2 - Episode 4 [DLC]",
@@ -153,7 +165,8 @@
         ],
         "SKU": "LIS2E4PCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/570840/life-is-strange-2-episode-4-dlc",
-        "UUID": "161dfd247fa342c584ddfa68543a95a8"
+        "UUID": "423cbc05984f4240a5096490150ef766",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Life is Strange 2 - Episode 2 [DLC]",
@@ -165,7 +178,8 @@
         ],
         "SKU": "LIS2EP2PCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/561896/life-is-strange-2-episode-2-dlc",
-        "UUID": "f2303c283a9a4eeda654262095c08c88"
+        "UUID": "8fdda90162a24825ba2174ebcb6dd047",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Life is Strange 2 - Episode 3 [DLC]",
@@ -177,7 +191,8 @@
         ],
         "SKU": "LIS2E3PCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/561836/life-is-strange-2-episode-3-dlc",
-        "UUID": "8b072401e21b48ceb50ae634677685c9"
+        "UUID": "a4234bf77a374287a5e7b1d4d8455f61",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE : BEFORE THE STORM [PC DOWNLOAD]",
@@ -189,7 +204,8 @@
         ],
         "SKU": "LISBTSPCDL",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/445839/life-is-strange-before-the-storm-pc-download",
-        "UUID": "83c03e07988540bda7aa679144292d8a"
+        "UUID": "626ff67d9fa844df91786f9b9a050b3c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE : BEFORE THE STORM DELUXE EDITION [PC DOWNLOAD]",
@@ -201,7 +217,8 @@
         ],
         "SKU": "LISBTSDPCDL",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/445859/life-is-strange-before-the-storm-deluxe-edition-pc-download",
-        "UUID": "a7f21dcc2b914e63a7127d9682ce2a51"
+        "UUID": "aee5f6b247fd4ab9b0f44d8d8805361b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE - EPISODE 1 [PC DOWNLOAD]",
@@ -213,7 +230,8 @@
         ],
         "SKU": "1824",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310338/life-is-strange-episode-1-pc-download",
-        "UUID": "8f476cb9c3eb4c90b162b17fdc8dae8f"
+        "UUID": "bda373cc4d5241fc8380b569ccffd9a7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE - COMPLETE SEASON (1-5) [PC DOWNLOAD]",
@@ -225,7 +243,8 @@
         ],
         "SKU": "1825",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310318/life-is-strange-complete-season-1-5-pc-download",
-        "UUID": "9895bcbf7c524a1eb2a705534b56b916"
+        "UUID": "afd945a799654653afb1750da0414a7b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VIII - REMASTERED [PC Download]",
@@ -237,7 +256,8 @@
         ],
         "SKU": "FFVIIIPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/598168/final-fantasy-viii-remastered-pc-download",
-        "UUID": "2863300883a84a81b2b7d6e63e877c7e"
+        "UUID": "df90d87669cd40c7b6b3c77073e04d04",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "DRAGON QUEST BUILDERS™ 2 [PC Download]",
@@ -249,7 +269,8 @@
         ],
         "SKU": "DQB2PCLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/594955/dragon-quest-builders-2-pc-download",
-        "UUID": "38fc81137db64f458f99ec1534121e98"
+        "UUID": "48da49668e2845a59ec603860c2f6bee",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "ROMANCING SAGA 3™",
@@ -261,7 +282,8 @@
         ],
         "SKU": "RMSA3PCCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/571911/romancing-saga-3",
-        "UUID": "92e9b1cedf4b434d8376acd35674ee8e"
+        "UUID": "d7297292ee1946279c03f9ea573ab965",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "SAGA SCARLET GRACE: AMBITIONS™",
@@ -273,7 +295,8 @@
         ],
         "SKU": "SAGASGPCCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/571934/saga-scarlet-grace-ambitions",
-        "UUID": "e0d5187e7d5b4299bf32b305a41b908f"
+        "UUID": "10a8ceb30ddb4632a4c8a41a2a6cff04",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Hitman GO: Definitive Edition",
@@ -285,7 +308,8 @@
         ],
         "SKU": "427820",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/316439/hitman-go-definitive-edition",
-        "UUID": "334b840a290a40d7a2c25b8f25bac8cc"
+        "UUID": "a261ba981a924008bef77e5bb642af54",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Spelunker Party [PC Download]",
@@ -297,7 +321,8 @@
         ],
         "SKU": "SPPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/460379/spelunker-party-pc-download",
-        "UUID": "55b93bcd8274460c85ac987fac704e9c"
+        "UUID": "6ce1304bc01d4dfb9e3601385ddaf9aa",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LOST SPHEAR [PC Download]",
@@ -309,7 +334,8 @@
         ],
         "SKU": "LSPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/453119/lost-sphear-pc-download",
-        "UUID": "8384f70bc01c4921b418c92cefba2203"
+        "UUID": "0637d1f74259409ea3476c89a6fb8d4d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Children of Zodiarcs - Collector's Edition [PC Download]",
@@ -321,7 +347,8 @@
         ],
         "SKU": "COZCEPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/448619/children-of-zodiarcs-collector-s-edition-pc-download",
-        "UUID": "bdb472efbc374a7aab64cee36f02892c"
+        "UUID": "d69408575c02440a82aae168ea60509a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Children of Zodiarcs [PC Download]",
@@ -333,7 +360,8 @@
         ],
         "SKU": "COZPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/448599/children-of-zodiarcs-pc-download",
-        "UUID": "a00900c7950c494086a1238bdc32d0ee"
+        "UUID": "aa62b1eb848d493c94ff55efe3d3e198",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Black The Fall - Collector's Edition [PC Download]",
@@ -345,7 +373,8 @@
         ],
         "SKU": "BTFCEPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/448309/black-the-fall-collector-s-edition-pc-download",
-        "UUID": "c0aa36fced124eaeba1dbc0908e1608c"
+        "UUID": "9f85ba6cd5a64a379f118ab6abe0733d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Black The Fall [PC Download]",
@@ -357,7 +386,8 @@
         ],
         "SKU": "BTFPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/448289/black-the-fall-pc-download",
-        "UUID": "cd605e1a734d42f2b1e2a06cef9fcf44"
+        "UUID": "65c03963ea9548c2882134ee1194df3d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "SHADOW OF THE TOMB RAIDER Definitive Edition [PS4]",
@@ -369,7 +399,8 @@
         ],
         "SKU": "STR114EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593479/shadow-of-the-tomb-raider-definitive-edition-ps4",
-        "UUID": "4838a050a97542f6a14198926805ccdb"
+        "UUID": "180d2abebf1a42649908f7faecdca4e6",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tokyo Dark [PC Download]",
@@ -381,7 +412,8 @@
         ],
         "SKU": "TDSTDEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/459039/tokyo-dark-pc-download",
-        "UUID": "5938f8ed6b424bf9a9fdbe3c986c8de1"
+        "UUID": "29860a31290846e0bd31b6f497b92446",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "SHADOW OF THE TOMB RAIDER Definitive Edition [XBOX ONE]",
@@ -393,7 +425,8 @@
         ],
         "SKU": "STR111EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593499/shadow-of-the-tomb-raider-definitive-edition-xbox-one",
-        "UUID": "12e3bcc9e2434f8899d353aac65024b1"
+        "UUID": "039dd95169cc49049604f6426f22617e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tokyo Dark - Collector's Edition [PC Download]",
@@ -405,7 +438,8 @@
         ],
         "SKU": "TDCEEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/459144/tokyo-dark-collector-s-edition-pc-download",
-        "UUID": "7a565aaf8f934790ad21c6c9966c545f"
+        "UUID": "7f09eaf146164ea380cec16c2bec5da9",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE 2 [PC]",
@@ -417,7 +451,8 @@
         ],
         "SKU": "SLIS2VEN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593205/life-is-strange-2-pc",
-        "UUID": "0440f919b5d245058a2e82521eacd14e"
+        "UUID": "24f9161e313d4d4db4ef466e9e949619",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE : BEFORE THE STORM DELUXE UPGRADE [PC DOWNLOAD]",
@@ -429,7 +464,8 @@
         ],
         "SKU": "LSBTSDUEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/458889/life-is-strange-before-the-storm-deluxe-upgrade-pc-download",
-        "UUID": "2c810f1f5d8846beaf2d186505234fc0"
+        "UUID": "cbb6d3ff46a94b2db943a02ac85c5fca",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE 2 Collector's Edition [XBOX ONE]",
@@ -441,7 +477,8 @@
         ],
         "SKU": "SLIS21EN01_CE_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593294/life-is-strange-2-collector-s-edition-xbox-one",
-        "UUID": "1ac151e6ee194c8fb981954256aa10ee"
+        "UUID": "f33cce198b8b4922973b1b70fcd54f6f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE 2 Collector's Edition [PS4]",
@@ -453,7 +490,8 @@
         ],
         "SKU": "SLIS24EN01_CE_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593291/life-is-strange-2-collector-s-edition-ps4",
-        "UUID": "13ef00559aaa409b8764efd4290f545c"
+        "UUID": "36441952211d4161945f4791f1f1948c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE 2 Collector's Edition [PC]",
@@ -465,7 +503,8 @@
         ],
         "SKU": "SLIS2VEN01_CE_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593295/life-is-strange-2-collector-s-edition-pc",
-        "UUID": "8ee6d9479f2b44f4adf65439e88470f0"
+        "UUID": "2c87a598d05f4495bdb13e342e1c0a9f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY® XIV Online - Starter Edition [PC Download]",
@@ -477,7 +516,8 @@
         ],
         "SKU": "FFXIV-AIO-PCD",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/445694/final-fantasy-xiv-online-starter-edition-pc-download",
-        "UUID": "7d06424c9d7a422ea9af77ee5aeba997"
+        "UUID": "0188f78ba8fe434a8aef1fb62cfbb802",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE 2 [XBOX ONE]",
@@ -489,7 +529,8 @@
         ],
         "SKU": "SLIS21EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593130/life-is-strange-2-xbox-one",
-        "UUID": "553e966e39d6405f83a67a34de3b0ce5"
+        "UUID": "2de8341738b54b8f8cf27a7e93f4a231",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY® XIV Online - Starter Edition [Mac OS]",
@@ -501,7 +542,8 @@
         ],
         "SKU": "FFXIV-AIO-MacOs",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/445674/final-fantasy-xiv-online-starter-edition-mac-os",
-        "UUID": "ec8b51c032e540f8b28049798edb07fb"
+        "UUID": "6bd23d62579743b2b0e00966f27e450a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIFE IS STRANGE 2 [PS4]",
@@ -513,7 +555,8 @@
         ],
         "SKU": "SLIS24EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593113/life-is-strange-2-ps4",
-        "UUID": "485ae87477fd469f8ba9f1e83cb6d91d"
+        "UUID": "4c6878cfec764b83b763315e8e0fda0b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY® XI: FREE TRIAL [PC Download]",
@@ -525,7 +568,8 @@
         ],
         "SKU": "FFXIFTEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/443873/final-fantasy-xi-free-trial-pc-download",
-        "UUID": "9ebc88508cf947d48906d63e4ffa4345"
+        "UUID": "20e7c79694224a76b9fdb0ceddcf43fc",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "NieR:Automata™ - 3C3C1D119440927 [DLC]",
@@ -537,7 +581,8 @@
         ],
         "SKU": "NADLCEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/443773/nierautomata-3c3c1d119440927-dlc",
-        "UUID": "66f066ef466d4dbe98a9c71a6eeb7393"
+        "UUID": "c0e238e66efd49a1a2d3f8a95bccd44e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "DRAGON QUEST HEROES™ II [PC DOWNLOAD]",
@@ -549,7 +594,8 @@
         ],
         "SKU": "DQHIIDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/440495/dragon-quest-heroes-ii-pc-download",
-        "UUID": "e02df11baa984edabb02a4ad281490f6"
+        "UUID": "1f0d8f4a83bc4c788e9d430c0cd2b15d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Mankind Divided - A Criminal Past [DLC]",
@@ -561,7 +607,8 @@
         ],
         "SKU": "DXMDACPEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/439265/deus-ex-mankind-divided-a-criminal-past-dlc",
-        "UUID": "ec654581a0a842d5852912f030bab8dd"
+        "UUID": "ac5fdfb0a8fa439b85b16be2debf70c1",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft GO [PC Download]",
@@ -573,7 +620,8 @@
         ],
         "SKU": "LCGODLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/435172/lara-croft-go-pc-download",
-        "UUID": "62dd88a861bc42ae9a5b5e72fb6e1060"
+        "UUID": "39b4dd23002d4bceb71ad6d898e97642",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "NieR: Automata™ [PC Download]",
@@ -585,7 +633,8 @@
         ],
         "SKU": "DLNAEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/425251/nier-automata-pc-download",
-        "UUID": "04a906a0b7eb4dc78118edbaa45c20bb"
+        "UUID": "14294e4027674dbaa1643e6990503990",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Secret of Mana [PC Download]",
@@ -597,7 +646,8 @@
         ],
         "SKU": "SMPCDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/458644/secret-of-mana-pc-download",
-        "UUID": "4516377e15da458da76ecf65a7bf0e6f"
+        "UUID": "3e11f819c16342dfac275bfbd2d1d83d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider 20 Year Celebration Pack [PC Download]",
@@ -609,7 +659,8 @@
         ],
         "SKU": "DLROTTR20YCPEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/425017/rise-of-the-tomb-raider-20-year-celebration-pack-pc-download",
-        "UUID": "a2b4a34ee1314c86b515643d6a3e5818"
+        "UUID": "f1608589d8984a0f8fe4ffae506622f8",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Mankind Divided - System Rift [DLC]",
@@ -621,7 +672,8 @@
         ],
         "SKU": "DXMDDLCSR01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/421085/deus-ex-mankind-divided-system-rift-dlc",
-        "UUID": "95c54254f1604c5cb92c5522368835b1"
+        "UUID": "69209368f562460d8f20714128992d57",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Reaper Missile Mech [DLC]",
@@ -633,7 +685,8 @@
         ],
         "SKU": "JC3RMDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/418802/just-cause-3-dlc-reaper-missile-mech-dlc",
-        "UUID": "539c42b359b845c9a72121e0a3c273f2"
+        "UUID": "7e5375aaf6434fe18dbfb3552ed94d30",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Mankind Divided - Assault Pack [DLC]",
@@ -645,7 +698,8 @@
         ],
         "SKU": "DLDXMDADEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/418592/deus-ex-mankind-divided-assault-pack-dlc",
-        "UUID": "841d24edb1694c7eb60d4e14d745d02f"
+        "UUID": "83e1c61b6c6142b18cf809f321bdf929",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Mankind Divided - Tactical Pack [DLC]",
@@ -657,7 +711,8 @@
         ],
         "SKU": "DDLDEMDTGEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/418572/deus-ex-mankind-divided-tactical-pack-dlc",
-        "UUID": "5ed566c8abee41079a33594a7221a5f6"
+        "UUID": "5bbd20ca3a9948ecb49e2a8bfb21653c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Season Pass [DLC]",
@@ -669,7 +724,8 @@
         ],
         "SKU": "2079",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/315911/rise-of-the-tomb-raider-dlc-season-pass-dlc",
-        "UUID": "61ee9c7ae0c54b3fadf78db66e9f597d"
+        "UUID": "2cfb1af521954b43ac766a97020ab03b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Mankind Divided - Season Pass [DLC]",
@@ -681,7 +737,8 @@
         ],
         "SKU": "DXMDSPDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/418537/deus-ex-mankind-divided-season-pass-dlc",
-        "UUID": "081d6f47d48843aebc3a7421e0868633"
+        "UUID": "cf73b3faefbc497eaff5bca6c351bb42",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Bavarium Sea Heist Pack [DLC]",
@@ -693,7 +750,8 @@
         ],
         "SKU": "JC3BSHDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/418505/just-cause-3-dlc-bavarium-sea-heist-pack-dlc",
-        "UUID": "6ec92a76224246668ec62346ed2d716e"
+        "UUID": "8ebf4e7ff83d4e37a5fe3efe0e48a300",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "The Turing Test - Upgrade Pack",
@@ -705,7 +763,8 @@
         ],
         "SKU": "TTTUPDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/413886/the-turing-test-upgrade-pack",
-        "UUID": "66dc6dd775ac4209afa838e0d1be478c"
+        "UUID": "b66472b60d0a4a5499d8eaeacbf66b7b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "The Turing Test [PC Download]",
@@ -717,7 +776,8 @@
         ],
         "SKU": "TTTDLEN02",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/413866/the-turing-test-pc-download",
-        "UUID": "c7b94f582996402a8702d990c5205c96"
+        "UUID": "cd71cbfc0aa14283bf55f90a8cd5c81b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "The Turing Test - Collector's Edition [PC Download]",
@@ -729,7 +789,8 @@
         ],
         "SKU": "TTTCEDLEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/413832/the-turing-test-collector-s-edition-pc-download",
-        "UUID": "6f86d9abfc4647eaa75d32650e843ed6"
+        "UUID": "c0880854334846a59dda4d63ef2c6cd7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "I am Setsuna Collector's Edition [PC Download]",
@@ -741,7 +802,8 @@
         ],
         "SKU": "DLIASCEEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/413401/i-am-setsuna-collector-s-edition-pc-download",
-        "UUID": "16ae1dc77ccf4ceea7da20a7071e3781"
+        "UUID": "2ec115774f3f4d748c804d5c7ce7e8f0",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Mech Land Assault [DLC]",
@@ -753,7 +815,8 @@
         ],
         "SKU": "DLJC3MLA01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/406450/just-cause-3-dlc-mech-land-assault-dlc",
-        "UUID": "35e34216296346a5ae3a7375045a32ab"
+        "UUID": "73348910ae734bd5921a0ae39f5763e7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Kousavá Rifle [DLC]",
@@ -765,7 +828,8 @@
         ],
         "SKU": "DLJC3KREN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/406430/just-cause-3-dlc-kousava-rifle-dlc",
-        "UUID": "55a024d5f5fc493cb73c2ffbc715308c"
+        "UUID": "2c55736d06bb46c6902998e848bcfac5",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "I am Setsuna [PC Download]",
@@ -777,7 +841,8 @@
         ],
         "SKU": "DDLIASEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/404026/i-am-setsuna-pc-download",
-        "UUID": "638a7808fef6458cbdc198b4c58a7457"
+        "UUID": "fc9acc916cf44d7ebb98515b789dbd92",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY X/X-2 HD Remaster [PC Download]",
@@ -789,7 +854,8 @@
         ],
         "SKU": "DLFFXX2EN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/403332/final-fantasy-xx-2-hd-remaster-pc-download",
-        "UUID": "27373543caf947748df26df4467ecab2"
+        "UUID": "940b2efddab24e5cac962c6a89cc8bfd",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Mankind Divided - Digital Deluxe Edition [PC Download]",
@@ -801,7 +867,8 @@
         ],
         "SKU": "DLDXDDEEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/402465/deus-ex-mankind-divided-digital-deluxe-edition-pc-download",
-        "UUID": "163427a211ff474294a6da8346282cc3"
+        "UUID": "b9e5bae143ba455ca4fd16c85aa5ae33",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Cold Darkness Awakened [DLC]",
@@ -813,7 +880,8 @@
         ],
         "SKU": "DLROTTRCDEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/398577/rise-of-the-tomb-raider-dlc-cold-darkness-awakened-dlc",
-        "UUID": "f636e336806a4dd88aac07c370418f8a"
+        "UUID": "357a9dc74f21436b8a19fff684ee2a8c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY IX [PC Download]",
@@ -825,7 +893,8 @@
         ],
         "SKU": "DLFFIXEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/316596/final-fantasy-ix-pc-download",
-        "UUID": "430d6d8eb03d4c57930e0e3cce043e78"
+        "UUID": "de7524d6401441bd9ad6df8b9007d637",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Prophet´s Legacy [DLC]",
@@ -837,7 +906,8 @@
         ],
         "SKU": "2139",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313543/rise-of-the-tomb-raider-dlc-prophets-legacy-dlc",
-        "UUID": "2fce5009229648dfa4283edf0a8d9ffe"
+        "UUID": "754d2d66d9b34f98af646a91ef5c3898",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Wilderness Survivor Pack [DLC]",
@@ -849,7 +919,8 @@
         ],
         "SKU": "2140",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313558/rise-of-the-tomb-raider-dlc-wilderness-survivor-pack-dlc",
-        "UUID": "98bbcd16321c41d9a7c624ca5c1b839d"
+        "UUID": "fdf003a1dc9a4b73b0f8e2ff5565eb7c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Remnant Resistance Pack [DLC]",
@@ -861,7 +932,8 @@
         ],
         "SKU": "2141",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313573/rise-of-the-tomb-raider-dlc-remnant-resistance-pack-dlc",
-        "UUID": "4d4431d1388941edb1bf167ba3f4682a"
+        "UUID": "f5051513ea014991b620718c57f23331",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Baba Yaga - The Temple of the Witch [DLC]",
@@ -873,7 +945,8 @@
         ],
         "SKU": "2142",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313588/rise-of-the-tomb-raider-dlc-baba-yaga-the-temple-of-the-witch-dlc",
-        "UUID": "67169125aa5b418e982b0791dad4f7c5"
+        "UUID": "1719eb57ff344c3aad51b62cffbb52e2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Endurance Mode [DLC]",
@@ -885,7 +958,8 @@
         ],
         "SKU": "2143",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313603/rise-of-the-tomb-raider-dlc-endurance-mode-dlc",
-        "UUID": "967d6de82c354e0ead07fb919da8d055"
+        "UUID": "1bcc24c12a4b475f9890abeb75064c90",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Sky Fortress Pack [DLC]",
@@ -897,7 +971,8 @@
         ],
         "SKU": "2144",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313618/just-cause-3-dlc-sky-fortress-pack-dlc",
-        "UUID": "054a20af7c264f07b5d17582c327c800"
+        "UUID": "73bf7c6ed02d4101a3786a5a2ff43c58",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Apex Predator Pack [DLC]",
@@ -909,7 +984,8 @@
         ],
         "SKU": "2133",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313453/rise-of-the-tomb-raider-dlc-apex-predator-pack-dlc",
-        "UUID": "0cd496c9553a405ebc7fca1031723ced"
+        "UUID": "fe6dd4e199f040b1947feddb385a2d96",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Sparrowhawk Pack [DLC]",
@@ -921,7 +997,8 @@
         ],
         "SKU": "2134",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313468/rise-of-the-tomb-raider-dlc-sparrowhawk-pack-dlc",
-        "UUID": "d30ceab685ea4eeea9caf62dc6c3c849"
+        "UUID": "02653e570e0847bdbcd4812bae23c6c9",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Tactical Survivor Pack [DLC]",
@@ -933,7 +1010,8 @@
         ],
         "SKU": "2135",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313483/rise-of-the-tomb-raider-dlc-tactical-survivor-pack-dlc",
-        "UUID": "3662b45f5fb748b3b73f72e579dbb5c3"
+        "UUID": "ed0ee89ab1c74e10953ded6fa5d8bc95",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Hope´s Bastion Pack [DLC]",
@@ -945,7 +1023,8 @@
         ],
         "SKU": "2136",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313498/rise-of-the-tomb-raider-dlc-hopes-bastion-pack-dlc",
-        "UUID": "14fc7662f9b241abb354967f2413e4be"
+        "UUID": "532be6ad9c09471d9ae0a8a579b21fe6",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Siberian Ranger Pack [DLC]",
@@ -957,7 +1036,8 @@
         ],
         "SKU": "2137",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313513/rise-of-the-tomb-raider-dlc-siberian-ranger-pack-dlc",
-        "UUID": "6ac3b5a9b077457b9c9780902f195d68"
+        "UUID": "2c65acb4ad0b41f7ac0a9f2791b4a13a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider DLC: Ancient Vanguard Pack [DLC]",
@@ -969,7 +1049,8 @@
         ],
         "SKU": "2138",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313528/rise-of-the-tomb-raider-dlc-ancient-vanguard-pack-dlc",
-        "UUID": "15de0603f47d4029bf5f906473bc6d02"
+        "UUID": "1354a7eaf4954d39927244330abdd5b6",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Rise of the Tomb Raider: 20 Year Celebration [PC Download]",
@@ -981,7 +1062,8 @@
         ],
         "SKU": "2078",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313423/rise-of-the-tomb-raider-20-year-celebration-pc-download",
-        "UUID": "77ea938b9f7f441ea546fc7c41040b68"
+        "UUID": "f08d4b5bf5e94d5e80b2244ced52b006",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Yosumin!™ [PC Download]",
@@ -993,7 +1075,8 @@
         ],
         "SKU": "1884",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313388/yosumin!153-pc-download",
-        "UUID": "b7c2700a74194314a5cf3ae5ae56a145"
+        "UUID": "e113601498364a1aa01992242ac0603c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Underworld [PC Download]",
@@ -1005,7 +1088,8 @@
         ],
         "SKU": "831",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313278/tomb-raider-underworld-pc-download",
-        "UUID": "823358848fa14337874de23aa24a032e"
+        "UUID": "45dfcd8020c641dc93415c551991a7d5",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "DEUS EX : MANKIND DIVIDED [PC DOWNLOAD]",
@@ -1017,7 +1101,8 @@
         ],
         "SKU": "DLDXMDEN01",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303908/deus-ex-mankind-divided-pc-download",
-        "UUID": "24b40cb7f6014a138e78e0ec8bd390e2"
+        "UUID": "f2200e3e341b434dbff9391d8167303d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: The Angel of Darkness [PC Download]",
@@ -1029,7 +1114,8 @@
         ],
         "SKU": "319",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313258/tomb-raider-the-angel-of-darkness-pc-download",
-        "UUID": "001f521e06ef4c6b9217dded9fd5c0e2"
+        "UUID": "b4d74c347d114ce2b11c8b7c73df3bcd",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Legend [PC Download]",
@@ -1041,7 +1127,8 @@
         ],
         "SKU": "520",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313238/tomb-raider-legend-pc-download",
-        "UUID": "a4f7f4be4421404eb6902dbfa30b49b6"
+        "UUID": "b4ab0b62070f4c33a6e9d675bcd88b16",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Chronicles [PC Download]",
@@ -1053,7 +1140,8 @@
         ],
         "SKU": "318",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313188/tomb-raider-chronicles-pc-download",
-        "UUID": "89c8fc1ac61b4015b4f7f47c28fb7668"
+        "UUID": "670e59e1c0ff40f7b0b64a8a6cde8726",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Anniversary [PC Download]",
@@ -1065,7 +1153,8 @@
         ],
         "SKU": "567",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313168/tomb-raider-anniversary-pc-download",
-        "UUID": "87094edb342f4b2bb963bdf381c32a11"
+        "UUID": "2733de0cd9a247deb91fcc0d5810c754",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider IV: The Last Revelation [PC Download]",
@@ -1077,7 +1166,8 @@
         ],
         "SKU": "521",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313128/tomb-raider-iv-the-last-revelation-pc-download",
-        "UUID": "75e357a5af4f4e2d96dd22177bf3d74f"
+        "UUID": "afd37ab746374914a4eab90990aa5964",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider III: Adventures of Lara Croft [PC Download]",
@@ -1089,7 +1179,8 @@
         ],
         "SKU": "212",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313088/tomb-raider-iii-adventures-of-lara-croft-pc-download",
-        "UUID": "12307ca2c1544fba9479a55232eef01c"
+        "UUID": "21238066dfcd4e199c8be61077a85e56",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider GAME OF THE YEAR EDITION [PC Download]",
@@ -1101,7 +1192,8 @@
         ],
         "SKU": "1568",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/313048/tomb-raider-game-of-the-year-edition-pc-download",
-        "UUID": "718de2e02cc645a7a43375219ea0b6b1"
+        "UUID": "0e3e8f03a42a4722925900465360fb80",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "TOMB RAIDER COLLECTION [PC DOWNLOAD]",
@@ -1113,7 +1205,8 @@
         ],
         "SKU": "1748",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312993/tomb-raider-collection-pc-download",
-        "UUID": "9e70afd01c9242d8b7d1a1db7f1c7443"
+        "UUID": "156bcd8bd18b45bbb68922d211840584",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider [PC Download]",
@@ -1125,7 +1218,8 @@
         ],
         "SKU": "1176",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312968/tomb-raider-pc-download",
-        "UUID": "bd57b04458454eb2a3dc4b58fc1bdf3f"
+        "UUID": "dea2a7c0a7174fb8bb66795d1a7eb19f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief: The Dark Project - Gold [PC Download]",
@@ -1137,7 +1231,8 @@
         ],
         "SKU": "603",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312948/thief-the-dark-project-gold-pc-download",
-        "UUID": "0f0296e663cb4fcd8626fa4cd9cf8fab"
+        "UUID": "6320f96165e2402ea94a6d6441704de2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief: Master Thief Edition [PC Download]",
@@ -1149,7 +1244,8 @@
         ],
         "SKU": "1414",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312928/thief-master-thief-edition-pc-download",
-        "UUID": "6cb96c60332e4ba59e58e065162c8795"
+        "UUID": "b0671706780a4645971ad93896d76375",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief: Deadly Shadows [PC Download]",
@@ -1161,7 +1257,8 @@
         ],
         "SKU": "211",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312908/thief-deadly-shadows-pc-download",
-        "UUID": "50916ff8ad0449a5a685e76f2d6cb260"
+        "UUID": "581c332277cf48f8abea7cbbf2875a9c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief II: The Metal Age [PC Download]",
@@ -1173,7 +1270,8 @@
         ],
         "SKU": "1173",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312888/thief-ii-the-metal-age-pc-download",
-        "UUID": "e7d62c6f34c345b0b8ca5c3d29dc656f"
+        "UUID": "d50917fabbf24182b1fa2d8cbbe6f21c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief Collection [PC Download]",
@@ -1185,7 +1283,8 @@
         ],
         "SKU": "1759",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312868/thief-collection-pc-download",
-        "UUID": "24b49dbbee71491d9aeb24f94b2ac291"
+        "UUID": "d565f746db9b4ffb90541a389c158053",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief [PC Download]",
@@ -1197,7 +1296,8 @@
         ],
         "SKU": "1284",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312688/thief-pc-download",
-        "UUID": "0d9ce2ba71244014936e31aa72a053a4"
+        "UUID": "e853a109acc54dfeb94f85b00e81fdd2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "The Last Remnant [PC Download]",
@@ -1209,7 +1309,8 @@
         ],
         "SKU": "1270",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312413/the-last-remnant-pc-download",
-        "UUID": "9b0695f28371433f9a251c1810fb33eb"
+        "UUID": "43cb3092de704d30a592caafe085a857",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Supreme Commander 2 [PC Download]",
@@ -1221,7 +1322,8 @@
         ],
         "SKU": "1158",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312393/supreme-commander-2-pc-download",
-        "UUID": "a89a913ab7bc482ca69802d8577d36a7"
+        "UUID": "bfeea9d44307426f8697f82ec9978de1",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Sleeping Dogs Definitive Edition [PC Download]",
@@ -1233,7 +1335,8 @@
         ],
         "SKU": "1739",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/312253/sleeping-dogs-definitive-edition-pc-download",
-        "UUID": "db64a4e5c51546f79a6bf967a7f2a8b3"
+        "UUID": "11cd70915c5f46108966473d05577b53",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "SEASON OF MYSTERY: The Cherry Blossom Murders [PC Download]",
@@ -1245,7 +1348,8 @@
         ],
         "SKU": "1886",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/311948/season-of-mystery-the-cherry-blossom-murders-pc-download",
-        "UUID": "bd1db1f6b52d44daac9780de61309f42"
+        "UUID": "54a64fb8d353432482b01de6268ceebd",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Quantum Conundrum [PC Download]",
@@ -1257,7 +1361,8 @@
         ],
         "SKU": "1163",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/311873/quantum-conundrum-pc-download",
-        "UUID": "c3014c3b27724bb7ab2acba8ad9e36b1"
+        "UUID": "d72482ca6042463c8cfebb31f492db54",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Project: Snowblind [PC Download]",
@@ -1269,7 +1374,8 @@
         ],
         "SKU": "600",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/311838/project-snowblind-pc-download",
-        "UUID": "03e27be58a1d4823aef0d1027943ae05"
+        "UUID": "0fd3ce2162564aab9c72aabe27cc9040",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Tomb Raider Outfit Pack [DLC]",
@@ -1281,7 +1387,8 @@
         ],
         "SKU": "1268",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/311633/tomb-raider-tomb-raider-outfit-pack-dlc",
-        "UUID": "aae4a29e3a7e490ca88dac597c938796"
+        "UUID": "d314613fc30c4348b9b1fb99abf73e8a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "THE NOMAD SOUL [PC DOWNLOAD]",
@@ -1293,7 +1400,8 @@
         ],
         "SKU": "1280",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/311548/the-nomad-soul-pc-download",
-        "UUID": "8075093e2ceb462dafa4c4521e420e19"
+        "UUID": "3b574508cb9e4a7dacf82934f383f383",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Combat Buggy [DLC]",
@@ -1305,7 +1413,8 @@
         ],
         "SKU": "2066",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302463/just-cause-3-dlc-combat-buggy-dlc",
-        "UUID": "0fa586d3112e4a35b2ed9601f6295d35"
+        "UUID": "709d62d76ee543b898b81b31306b0766",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Pandemonium! [PC Download]",
@@ -1317,7 +1426,8 @@
         ],
         "SKU": "1282",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/311568/pandemonium!-pc-download",
-        "UUID": "9c20da910e064022a93eec493cc5c73f"
+        "UUID": "387a254aff3b4efe9cf61bfacae538b3",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Tomb of the Lost Adventurer [DLC]",
@@ -1329,7 +1439,8 @@
         ],
         "SKU": "1241",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310588/tomb-raider-tomb-of-the-lost-adventurer-dlc",
-        "UUID": "687b39a2f5b94f41a0e7374f86d3fa3b"
+        "UUID": "a857f03167f24f12a90aa055120aa2eb",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Murdered: Soul Suspect [PC Download]",
@@ -1341,7 +1452,8 @@
         ],
         "SKU": "1285",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310563/murdered-soul-suspect-pc-download",
-        "UUID": "ef342b32b6514e65b7aa1e371d2f4bed"
+        "UUID": "e96ea8c475f44367bd0ae968bc185e6e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Mini Ninjas [PC Download]",
@@ -1353,7 +1465,8 @@
         ],
         "SKU": "926",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310543/mini-ninjas-pc-download",
-        "UUID": "962e79101a234acbb84f6a186bfc771c"
+        "UUID": "6c79bc9f119341d2bb1c5a8ba4831797",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LIGHTNING RETURNS™: FINAL FANTASY® XIII [PC DOWNLOAD]",
@@ -1365,7 +1478,8 @@
         ],
         "SKU": "2057",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310443/lightning-returns-final-fantasy-xiii-pc-download",
-        "UUID": "57e29799382f4dd9acac2b550d27e8ad"
+        "UUID": "7c76e7f649374879a9fc1a9604c7571b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Sure-shot [DLC]",
@@ -1377,7 +1491,8 @@
         ],
         "SKU": "1275",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310413/tomb-raider-sure-shot-dlc",
-        "UUID": "c5abecf21322408486638b6a585bcf99"
+        "UUID": "f0a32f51b33a457aaa1fd66560d8c9f2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Legacy of Kain: Soul Reaver 2 [PC Download]",
@@ -1389,7 +1504,8 @@
         ],
         "SKU": "210",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310278/legacy-of-kain-soul-reaver-2-pc-download",
-        "UUID": "75a6fcb8706046d0b0692f9574720daf"
+        "UUID": "eda354c7e0a14e4eb5ee053f9f0c5ab9",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Legacy of Kain: Soul Reaver [PC Download]",
@@ -1401,7 +1517,8 @@
         ],
         "SKU": "1171",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310258/legacy-of-kain-soul-reaver-pc-download",
-        "UUID": "1e7d0800db774df4adedfe53a05590ce"
+        "UUID": "187f2d734cca438e8a087bfb48bf3bcf",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Legacy of Kain: Defiance [PC Download]",
@@ -1413,7 +1530,8 @@
         ],
         "SKU": "113",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310238/legacy-of-kain-defiance-pc-download",
-        "UUID": "91d334708a48444c9bbab862f7cf1c67"
+        "UUID": "d724f44990434336ace2e217eb7ec43d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Legacy of Kain: Blood Omen 2 [PC Download]",
@@ -1425,7 +1543,8 @@
         ],
         "SKU": "1174",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310218/legacy-of-kain-blood-omen-2-pc-download",
-        "UUID": "11b8ef07f49d4f9eb4c298884299e9b6"
+        "UUID": "5b6c54e69e7441ff9fe2dda6abeb2477",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Legacy of Kain Collection [PC Download]",
@@ -1437,7 +1556,8 @@
         ],
         "SKU": "1758",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310198/legacy-of-kain-collection-pc-download",
-        "UUID": "a77de79758614d079027c9e2bb02ab97"
+        "UUID": "12dd9b89f5cd4eeba6953b873c9bf0af",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Season Pass Included [PC Download]",
@@ -1449,7 +1569,8 @@
         ],
         "SKU": "1730",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310178/lara-croft-and-the-temple-of-osiris-season-pass-included-pc-download",
-        "UUID": "0a62482fee5145c2958ed9f7ffb2792b"
+        "UUID": "8b46bd03b86d48d8b4c012da959744b1",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Season Pass [PC Download]",
@@ -1461,7 +1582,8 @@
         ],
         "SKU": "1876",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310158/lara-croft-and-the-temple-of-osiris-season-pass-pc-download",
-        "UUID": "2384f16cb586453daec40ef398f8793f"
+        "UUID": "cbe52eba8eea420981a55173cec7473a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - 4 Key Multi Pack [PC Download]",
@@ -1473,7 +1595,8 @@
         ],
         "SKU": "1703",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310063/lara-croft-and-the-temple-of-osiris-4-key-multi-pack-pc-download",
-        "UUID": "de43cebac60b4ad3b7dbb4f4003e40fe"
+        "UUID": "75da48de5a5c463fb1de11c34b6b8b2f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris [PC Download]",
@@ -1485,7 +1608,8 @@
         ],
         "SKU": "1699",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310043/lara-croft-and-the-temple-of-osiris-pc-download",
-        "UUID": "ebc77ad2200b4d109091db7c94995fa2"
+        "UUID": "e2d1904052b6479382a7098c18069c23",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Mini-Gun Racing Boat [DLC]",
@@ -1497,7 +1621,8 @@
         ],
         "SKU": "2067",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302523/just-cause-3-dlc-mini-gun-racing-boat-dlc",
-        "UUID": "19343430b6194d059bd25aa70cef60ec"
+        "UUID": "2d84f0eceaf04048aaa6230c1123e980",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Rocket Launcher Sports Car [DLC]",
@@ -1509,7 +1634,8 @@
         ],
         "SKU": "2068",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302543/just-cause-3-dlc-rocket-launcher-sports-car-dlc",
-        "UUID": "af764770a62243afb14684cbb4846ddb"
+        "UUID": "a844e7c40e9243d6b692c8f67312e25f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Final Argument Sniper Rifle [DLC]",
@@ -1521,7 +1647,8 @@
         ],
         "SKU": "2069",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302503/just-cause-3-dlc-final-argument-sniper-rifle-dlc",
-        "UUID": "eb606b37518c4e75a94b9e19f0445bd8"
+        "UUID": "3519b4548f4644fe8c958d21cb9c1ae2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Capstone Bloodhound RPG [DLC]",
@@ -1533,7 +1660,8 @@
         ],
         "SKU": "2070",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302443/just-cause-3-dlc-capstone-bloodhound-rpg-dlc",
-        "UUID": "a50b408893594d95a6ac6e98ad8eb33a"
+        "UUID": "f6464ebe3e4b4d81b19e00884d0f9c12",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Weaponized Vehicle Pack [DLC]",
@@ -1545,7 +1673,8 @@
         ],
         "SKU": "2071",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302563/just-cause-3-dlc-weaponized-vehicle-pack-dlc",
-        "UUID": "da4e02074cc84ad8823a7859dd648731"
+        "UUID": "9385b74698b8403082268e2182d6864b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Explosive Weapon Pack [DLC]",
@@ -1557,7 +1686,8 @@
         ],
         "SKU": "2072",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302483/just-cause-3-dlc-explosive-weapon-pack-dlc",
-        "UUID": "add8fa82c83c4c99af84b8359f8d2331"
+        "UUID": "1247dc09940445e28e60cd4bf98ebf11",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VI [PC Download]",
@@ -1569,7 +1699,8 @@
         ],
         "SKU": "2060",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/306978/final-fantasy-vi-pc-download",
-        "UUID": "92d5151ce9f14af68db82babd3735615"
+        "UUID": "3d8ce0d64f2a420d9a05edf59bacf2c7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "DRAGON QUEST HEROES®: The World Tree´s Woe and the Blight Below [PC Download]",
@@ -1581,7 +1712,8 @@
         ],
         "SKU": "2055",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/304203/dragon-quest-heroes-the-world-trees-woe-and-the-blight-below-pc-download",
-        "UUID": "44d0825e563544d68285962833d57cd5"
+        "UUID": "2325e714c4774f2db2816082df227dab",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 [PC Download]",
@@ -1593,7 +1725,8 @@
         ],
         "SKU": "1785",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309298/just-cause-3-pc-download",
-        "UUID": "65b477330c854b8d9855e935bf5d6f11"
+        "UUID": "4c7e85f6ab424750b189273e0ae42305",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 3 DLC: Air, Land & Sea Expansion Pass [DLC]",
@@ -1605,7 +1738,8 @@
         ],
         "SKU": "2019",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302423/just-cause-3-dlc-air-land-sea-expansion-pass-dlc",
-        "UUID": "e4f0913cbd894f3ca538043a51e8d2d3"
+        "UUID": "c18ce3ee638e480298c5ee290b0c0c68",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY V [PC Download]",
@@ -1617,7 +1751,8 @@
         ],
         "SKU": "2017",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/306958/final-fantasy-v-pc-download",
-        "UUID": "4bb6266fb3774c12a74399d46b4910b5"
+        "UUID": "f909747bc6494b4a9f7cc3af9ddc0c84",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY® XI: ULTIMATE COLLECTION SEEKERS EDITION [PC DOWNLOAD]",
@@ -1629,7 +1764,8 @@
         ],
         "SKU": "1181",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305423/final-fantasy-xi-ultimate-collection-seekers-edition-pc-download",
-        "UUID": "12ce1a0ce1ee46d4b72f00c794dc4e30"
+        "UUID": "ec868f213ff84c49bb71c196a13e0bf6",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY XI: Seekers of Adoulin [PC Download]",
@@ -1641,7 +1777,8 @@
         ],
         "SKU": "1180",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307513/final-fantasy-xi-seekers-of-adoulin-pc-download",
-        "UUID": "e19b58a5f7d640aa81f44ca9bdb7e02a"
+        "UUID": "a142907832274e4595f55c0e9365cf9a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VII [PC Download]",
@@ -1653,7 +1790,8 @@
         ],
         "SKU": "1516",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307108/final-fantasy-vii-pc-download",
-        "UUID": "a3379f2349674036a8107c4ed06cf953"
+        "UUID": "d1b4c6d2588c4312abd5397dee2691f7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY XIII-2 [PC DOWNLOAD]",
@@ -1665,7 +1803,8 @@
         ],
         "SKU": "1801",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307843/final-fantasy-xiii-2-pc-download",
-        "UUID": "63a9348c61d74a179140623518a8a85b"
+        "UUID": "d49b9bd16c7a41c88cde8bff4589a5b2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Deus Ex Pack [DLC]",
@@ -1677,7 +1816,8 @@
         ],
         "SKU": "1843",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302628/lara-croft-and-the-temple-of-osiris-deus-ex-pack-dlc",
-        "UUID": "8afe91321bbb476987158c7576e1f525"
+        "UUID": "32a992a2777f47f6ade6b3ada0798b2a",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Hitman Pack [DLC]",
@@ -1689,7 +1829,8 @@
         ],
         "SKU": "1842",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302648/lara-croft-and-the-temple-of-osiris-hitman-pack-dlc",
-        "UUID": "b81fcae0f41c45eda3863b0c6818f98a"
+        "UUID": "d4376d6c8c1040f5900e46faaf702e53",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Icy Death Pack DLC [DLC]",
@@ -1701,7 +1842,8 @@
         ],
         "SKU": "1840",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302668/lara-croft-and-the-temple-of-osiris-icy-death-pack-dlc-dlc",
-        "UUID": "33311976c78144dfaecec3aa1fb51b45"
+        "UUID": "015e5c72e7794cd6bde59a850d6c9c48",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Legend Pack DLC [DLC]",
@@ -1713,7 +1855,8 @@
         ],
         "SKU": "1844",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302688/lara-croft-and-the-temple-of-osiris-legend-pack-dlc-dlc",
-        "UUID": "c7c5bf63f8c844ceb623e43a4dadd883"
+        "UUID": "0d2d9d9d3c444bab945079c322d96c23",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Temple of Osiris - Twisted Gears Pack DLC [DLC]",
@@ -1725,7 +1868,8 @@
         ],
         "SKU": "1841",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302708/lara-croft-and-the-temple-of-osiris-twisted-gears-pack-dlc-dlc",
-        "UUID": "a609222a052b40ef96661d92d27bce0e"
+        "UUID": "1adb810bf451428b8d209c36d322e981",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Battlestations Collection [PC Download]",
@@ -1737,7 +1881,8 @@
         ],
         "SKU": "1761",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303163/battlestations-collection-pc-download",
-        "UUID": "510d1035f7254971b2a28465e4cfa22d"
+        "UUID": "73ac4e2617864527bba9bbfc3f32df9e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY XIII [PC Download]",
@@ -1749,7 +1894,8 @@
         ],
         "SKU": "1771",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307673/final-fantasy-xiii-pc-download",
-        "UUID": "c22f5076c95c4b72b3f98d2be74cfa16"
+        "UUID": "459325644eb44a7980ed449029d86182",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY IV [PC Download]",
@@ -1761,7 +1907,8 @@
         ],
         "SKU": "1757",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/306068/final-fantasy-iv-pc-download",
-        "UUID": "cf8197fb5ced4242aa76e76fbca24f91"
+        "UUID": "f5bcf01c4b6b449e9c067da8529f750f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft and the Guardian of Light [PC Download]",
@@ -1773,7 +1920,8 @@
         ],
         "SKU": "1072",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/310023/lara-croft-and-the-guardian-of-light-pc-download",
-        "UUID": "9a4d1537edd544ac836b12ff66e8eb26"
+        "UUID": "89dfa2d00e934bf19fa1413fda2436fa",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause Collection [PC Download]",
@@ -1785,7 +1933,8 @@
         ],
         "SKU": "1753",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309563/just-cause-collection-pc-download",
-        "UUID": "554ffe51121440ab9f3df40af9aa8514"
+        "UUID": "a91b5a09f7834a3b9e913b73d77715da",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Sleeping Dogs DLC Collection [DLC]",
@@ -1797,7 +1946,8 @@
         ],
         "SKU": "1374",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302848/sleeping-dogs-dlc-collection-dlc",
-        "UUID": "082050ae84cc4c15bfbde5ecc8d8d90a"
+        "UUID": "7eed6d18d38a4dc7a9bda6ced2485cf5",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "KANE AND LYNCH : DEAD MEN [PC DOWNLOAD]",
@@ -1809,7 +1959,8 @@
         ],
         "SKU": "643",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309628/kane-and-lynch-dead-men-pc-download",
-        "UUID": "f9944043dfaf4be59281e6c10f6045fc"
+        "UUID": "0206abb723984e04a1e88197b81fb011",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: STG 58 Elite [DLC]",
@@ -1821,7 +1972,8 @@
         ],
         "SKU": "1267",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309608/tomb-raider-stg-58-elite-dlc",
-        "UUID": "076a1847a9794866bce9a7bc3aa7851e"
+        "UUID": "bc253e4c4ea649618c95acc89339b1c7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Silverballer [DLC]",
@@ -1833,7 +1985,8 @@
         ],
         "SKU": "1266",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309523/tomb-raider-silverballer-dlc",
-        "UUID": "229389dd94d94a56a829db3cd6dc516a"
+        "UUID": "afa0a046bcc446738693e92f4ad24a19",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Shipwrecked Multiplayer Map Pack [DLC]",
@@ -1845,7 +1998,8 @@
         ],
         "SKU": "1265",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309493/tomb-raider-shipwrecked-multiplayer-map-pack-dlc",
-        "UUID": "8c6759e7659944db8e5ada1931070ab5"
+        "UUID": "bc363daad44d473cb0d87b04da043f7f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Shanty Town [DLC]",
@@ -1857,7 +2011,8 @@
         ],
         "SKU": "1243",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309473/tomb-raider-shanty-town-dlc",
-        "UUID": "f569f4bff0a548a486321ae747e22734"
+        "UUID": "8337b9d606b848c49aca9a6d4ab0b6aa",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Scavenger Scout [DLC]",
@@ -1869,7 +2024,8 @@
         ],
         "SKU": "1264",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309443/tomb-raider-scavenger-scout-dlc",
-        "UUID": "73a1e71bdb7d4a47887064bb65e02e43"
+        "UUID": "ddc62f6c42e842119693d6fc2f9e670f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Scavenger Bandit [DLC]",
@@ -1881,7 +2037,8 @@
         ],
         "SKU": "1262",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309403/tomb-raider-scavenger-bandit-dlc",
-        "UUID": "71bf906b63aa48869ab6b3a6d346043a"
+        "UUID": "904b2e6d5e7c4f37b89cad2e76905c91",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "JUST CAUSE 2 [PC DOWNLOAD]",
@@ -1893,7 +2050,8 @@
         ],
         "SKU": "968",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309138/just-cause-2-pc-download",
-        "UUID": "518bfc23a84f4cccab55523233814915"
+        "UUID": "09778d2029f2439e9926c4bc587f038f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause [PC Download]",
@@ -1905,7 +2063,8 @@
         ],
         "SKU": "517",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309118/just-cause-pc-download",
-        "UUID": "d2cb815282334e338387c53653ccb384"
+        "UUID": "4a8c3afee84e48b185b5d100273c28df",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Invisible War [PC Download]",
@@ -1917,7 +2076,8 @@
         ],
         "SKU": "281",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303843/deus-ex-invisible-war-pc-download",
-        "UUID": "59a6c3d1aa234338ac90a1b6de4b85da"
+        "UUID": "4cf357797a634859a4ded4379df6fd8f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Scavenger Executioner [DLC]",
@@ -1929,7 +2089,8 @@
         ],
         "SKU": "1263",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/309423/tomb-raider-scavenger-executioner-dlc",
-        "UUID": "f14e4d819c704c099fda3ce120cd5955"
+        "UUID": "2ade92e23bf3464ead25da999f79811c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY XIV - 60 Days Game Time Card [Other]",
@@ -1941,7 +2102,8 @@
         ],
         "SKU": "1850",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307008/final-fantasy-xiv-60-days-game-time-card-other",
-        "UUID": "d40f7b900f884d33b8d3fa7ce7546a2b"
+        "UUID": "f9d7d51d818f40ae849f3afc3635ce3c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY III [PC Download]",
@@ -1953,7 +2115,8 @@
         ],
         "SKU": "1648",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305443/final-fantasy-iii-pc-download",
-        "UUID": "d0c59949b4914607ba18837723f8710b"
+        "UUID": "5d4d7b024f4945489ca7520d124f4547",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY VIII [PC Download]",
@@ -1965,7 +2128,8 @@
         ],
         "SKU": "1492",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307228/final-fantasy-viii-pc-download",
-        "UUID": "f2e662a5f090411fac57d0f6b4aa9bba"
+        "UUID": "b8e28ff6cbe24e4c9766d62896ca7da4",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "FINAL FANTASY IV: The After Years [PC Download]",
@@ -1977,7 +2141,8 @@
         ],
         "SKU": "1919",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/306528/final-fantasy-iv-the-after-years-pc-download",
-        "UUID": "f596d12add2e4102a2993520b587b51c"
+        "UUID": "e7414922babb4992802a6436baef8206",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief DLC: Booster Pack Bundle [DLC]",
@@ -1989,7 +2154,8 @@
         ],
         "SKU": "1613",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305658/thief-dlc-booster-pack-bundle-dlc",
-        "UUID": "4cef25c249b84391aff934f71ee8d209"
+        "UUID": "4b9aa32da0774e708bfdb4c0a6971c16",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief DLC: The Bank Heist [DLC]",
@@ -2001,7 +2167,8 @@
         ],
         "SKU": "1614",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305678/thief-dlc-the-bank-heist-dlc",
-        "UUID": "9c3afcd086da4f2b9c9ad62aaec15abf"
+        "UUID": "21339821bd974bfba8478ff5a760cb9b",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief DLC: The Forsaken - Challenge Map [DLC]",
@@ -2013,7 +2180,8 @@
         ],
         "SKU": "1618",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305698/thief-dlc-the-forsaken-challenge-map-dlc",
-        "UUID": "93afce6c6d4048f09e71fc287a029f6b"
+        "UUID": "305a8176968940fda3446b7479c2663c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief DLC: Booster Pack - Ghost [DLC]",
@@ -2025,7 +2193,8 @@
         ],
         "SKU": "1617",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305598/thief-dlc-booster-pack-ghost-dlc",
-        "UUID": "ce43b5d6ff084d13b7b871113a3ecce9"
+        "UUID": "677861b6a0e748bcb114471f4556e48e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief DLC: Booster Pack - Opportunist [DLC]",
@@ -2037,7 +2206,8 @@
         ],
         "SKU": "1616",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305618/thief-dlc-booster-pack-opportunist-dlc",
-        "UUID": "8ec6bda0a6f549c79c28a3cf2ea59470"
+        "UUID": "03d94cae8abf44538b5d20e9a94bd7df",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Thief DLC: Booster Pack - Predator [DLC]",
@@ -2049,7 +2219,8 @@
         ],
         "SKU": "1615",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305638/thief-dlc-booster-pack-predator-dlc",
-        "UUID": "ccb25ce9daee4562a6b5e84a6f4950d2"
+        "UUID": "e2fdc5e0a38f4c1bbb39cc6d6923bfde",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Final Fantasy Type-0 HD [PC Download]",
@@ -2061,7 +2232,8 @@
         ],
         "SKU": "1971",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/306638/final-fantasy-type-0-hd-pc-download",
-        "UUID": "77a45c04d55348f2a3f037d0634032d2"
+        "UUID": "1bd3c98dcd9146658d1459e865a15664",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Battlestations: Midway [PC Download]",
@@ -2073,7 +2245,8 @@
         ],
         "SKU": "516",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303453/battlestations-midway-pc-download",
-        "UUID": "268c824b394f4e55b32664792d1f943d"
+        "UUID": "87160d9501c74ca5912128854f903843",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Battlestations: Pacific [PC Download]",
@@ -2085,7 +2258,8 @@
         ],
         "SKU": "886",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303473/battlestations-pacific-pc-download",
-        "UUID": "625a6fcff89849af8af1d48ab7f68b45"
+        "UUID": "a54f378e2afb47be924bc275f3b9585e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Championship Manager 2007 [PC Download]",
@@ -2097,7 +2271,8 @@
         ],
         "SKU": "966",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303528/championship-manager-2007-pc-download",
-        "UUID": "0f77eb492bd44ea8895a32786ca03e99"
+        "UUID": "f25d972901ec44189aba19b307c6c56f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Championship Manager 2010 [PC Download]",
@@ -2109,7 +2284,8 @@
         ],
         "SKU": "1159",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303558/championship-manager-2010-pc-download",
-        "UUID": "6513f095741c4a1399d01563fea69849"
+        "UUID": "11fade867f0b4d1aba427e004b64669e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Conflict: Denied Ops [PC Download]",
@@ -2121,7 +2297,8 @@
         ],
         "SKU": "664",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303573/conflict-denied-ops-pc-download",
-        "UUID": "b9943c76750b4949ab3a231b047fc9a8"
+        "UUID": "c67c45e9b27c4b8492ae0c572414d01d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Game of the Year Edition [PC Download]",
@@ -2133,7 +2310,8 @@
         ],
         "SKU": "650",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303658/deus-ex-game-of-the-year-edition-pc-download",
-        "UUID": "8a2b166b851340f9abae5b9c63c1e0d1"
+        "UUID": "8385cc972e1f42429a9de8f851bf0489",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Dungeon Siege III [PC Download]",
@@ -2145,7 +2323,8 @@
         ],
         "SKU": "1157",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/304853/dungeon-siege-iii-pc-download",
-        "UUID": "3b93471c41e44b5bb64516136d83dc66"
+        "UUID": "2808c4d84668474c8581e95d288dffdf",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex: Human Revolution - Director´s Cut [PC Download]",
@@ -2157,7 +2336,8 @@
         ],
         "SKU": "1415",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303808/deus-ex-human-revolution-directors-cut-pc-download",
-        "UUID": "0412e3714ba94cedb6725e7c3ac8950c"
+        "UUID": "37ee7cff12bf40ba85eaf2c3add371d3",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Pistol Silencer [DLC]",
@@ -2169,7 +2349,8 @@
         ],
         "SKU": "1261",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308558/tomb-raider-pistol-silencer-dlc",
-        "UUID": "636172dc4d86434ca02b17f4dbebfc42"
+        "UUID": "8d11d0fda4c14e50a8951dcb39bcd4d3",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Pistol Burst [DLC]",
@@ -2181,7 +2362,8 @@
         ],
         "SKU": "1260",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308518/tomb-raider-pistol-burst-dlc",
-        "UUID": "6569d616a2e04471ab9ec487c36b1c9a"
+        "UUID": "d80bae6b461546d8b9455bd954c2c923",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Online Survival Pack Unlock [DLC]",
@@ -2193,7 +2375,8 @@
         ],
         "SKU": "1259",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308478/tomb-raider-online-survival-pack-unlock-dlc",
-        "UUID": "dacc608522904a3996a237bfde57f8a3"
+        "UUID": "f975b2bfea64434fa368af3024ffd59d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Outfit Pack 2 [DLC]",
@@ -2205,7 +2388,8 @@
         ],
         "SKU": "1274",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308498/tomb-raider-outfit-pack-2-dlc",
-        "UUID": "9a08a4ce49d74d069bc78dd5db5f84a2"
+        "UUID": "436e7e0e00f24b26b134cd1539763a72",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Multiplayer Map Pack Bundle [DLC]",
@@ -2217,7 +2401,8 @@
         ],
         "SKU": "1279",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308418/tomb-raider-multiplayer-map-pack-bundle-dlc",
-        "UUID": "4fb9c5eb21304179bbd8284c7ac64914"
+        "UUID": "3b238a675cc44fbd982e136d221431cb",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Gyromancer [PC Download]",
@@ -2229,7 +2414,8 @@
         ],
         "SKU": "1883",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308438/gyromancer-pc-download",
-        "UUID": "d2f1301fe91a44a59322b4cd24801471"
+        "UUID": "007f095151734a3eaff4661bd98e6ae9",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Front Mission Evolved [PC Download]",
@@ -2241,7 +2427,8 @@
         ],
         "SKU": "1081",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/308358/front-mission-evolved-pc-download",
-        "UUID": "34ae6eceb533473e8004b49994287e4c"
+        "UUID": "9a94573cdf5949548b9c080ee4a6190e",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: M590 12ga [DLC]",
@@ -2253,7 +2440,8 @@
         ],
         "SKU": "1258",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307573/tomb-raider-m590-12ga-dlc",
-        "UUID": "43f223595a4f4b20899b00339c35c2a8"
+        "UUID": "f1d48961bd964b2b978cd26d7d70110d",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Mountaineer [DLC]",
@@ -2265,7 +2453,8 @@
         ],
         "SKU": "1273",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307593/tomb-raider-mountaineer-dlc",
-        "UUID": "a63a532957914de79c4358f3b43300a8"
+        "UUID": "5e654b43d09e43f7b59a422297de4ec7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: JAGD P22G [DLC]",
@@ -2277,7 +2466,8 @@
         ],
         "SKU": "1257",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307553/tomb-raider-jagd-p22g-dlc",
-        "UUID": "a775cc787f1241588832092c28299303"
+        "UUID": "c25b2b68af1e4facba7177ef1a4393a7",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: HX AP-15 [DLC]",
@@ -2289,7 +2479,8 @@
         ],
         "SKU": "1256",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307533/tomb-raider-hx-ap-15-dlc",
-        "UUID": "49bc3f8358b84897917bff013dbe8f0b"
+        "UUID": "db7d32541cd8428bbcda13ffede02503",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Hunter Skin [DLC]",
@@ -2301,7 +2492,8 @@
         ],
         "SKU": "1255",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/307493/tomb-raider-hunter-skin-dlc",
-        "UUID": "ee389cce8e334a3999c14439fca88ebd"
+        "UUID": "01e66ca10024444bb1f6f83f191c04c8",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Hitman: Absolution Weapons Pack 2 [DLC]",
@@ -2313,7 +2505,8 @@
         ],
         "SKU": "1254",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/306683/tomb-raider-hitman-absolution-weapons-pack-2-dlc",
-        "UUID": "97da1827559b41efabfe3dfbe1e8637c"
+        "UUID": "c6dde4f302734d88a9490358eb0af5f4",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Hitman: Absolution Weapons Pack 1 [DLC]",
@@ -2325,7 +2518,8 @@
         ],
         "SKU": "1242",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305988/tomb-raider-hitman-absolution-weapons-pack-1-dlc",
-        "UUID": "fd78ae39c508441d9c1f49cb5b20d322"
+        "UUID": "b0a9f116a6fe42df95ed1d73a6d80d66",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Guerilla Skin [DLC]",
@@ -2337,7 +2531,8 @@
         ],
         "SKU": "1252",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305948/tomb-raider-guerilla-skin-dlc",
-        "UUID": "6eea5023b28a49b48725978a553e7941"
+        "UUID": "b773520077bf435ba1a247b08b8b4793",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Headshot Reticle Skill [DLC]",
@@ -2349,7 +2544,8 @@
         ],
         "SKU": "1253",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305968/tomb-raider-headshot-reticle-skill-dlc",
-        "UUID": "47a4c7eb7569459ba498cf2e98b43c15"
+        "UUID": "e1c5e4ea424c40e09d276471bf1b8bbb",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Fisherman [DLC]",
@@ -2361,7 +2557,8 @@
         ],
         "SKU": "1251",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305928/tomb-raider-fisherman-dlc",
-        "UUID": "487447a20d864fc3b6c4b08ff6bbfde8"
+        "UUID": "1c5a4d81680a4a1ca35d94ac1d5c9e9f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Demolition [DLC]",
@@ -2373,7 +2570,8 @@
         ],
         "SKU": "1272",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305908/tomb-raider-demolition-dlc",
-        "UUID": "f7c500857f52466ca50ef88867cfbeb4"
+        "UUID": "3a17cc87e6f24e69a0f51ee305ff1e8f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Caves and Cliffs Multiplayer Map Pack [DLC]",
@@ -2385,7 +2583,8 @@
         ],
         "SKU": "1250",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305858/tomb-raider-caves-and-cliffs-multiplayer-map-pack-dlc",
-        "UUID": "4c5ae4db774544ba9ee51f80e705bd1f"
+        "UUID": "841314a0fb96439c88b861deed930128",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Animal Instinct Skill [DLC]",
@@ -2397,7 +2596,8 @@
         ],
         "SKU": "1248",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305818/tomb-raider-animal-instinct-skill-dlc",
-        "UUID": "92f3e5a2554f4b809de2c0a5f9904527"
+        "UUID": "e8ac533580d649aeb237c97c7cccc6db",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Aviatrix Skin [DLC]",
@@ -2409,7 +2609,8 @@
         ],
         "SKU": "1249",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305838/tomb-raider-aviatrix-skin-dlc",
-        "UUID": "19137d5052bc437886273cf0b9647b99"
+        "UUID": "60bf1f7de5e4401cbafd5987e49aa667",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Agility Skill [DLC]",
@@ -2421,7 +2622,8 @@
         ],
         "SKU": "1247",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305798/tomb-raider-agility-skill-dlc",
-        "UUID": "e3d73a6d7fbb4b0d80184aa95b0fdc85"
+        "UUID": "3e5e3e971ef84206b5aa163f90206556",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Adventure Pack Unlock [DLC]",
@@ -2433,7 +2635,8 @@
         ],
         "SKU": "1245",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305758/tomb-raider-adventure-pack-unlock-dlc",
-        "UUID": "e69ad092405b4366aee9ea75e50793f0"
+        "UUID": "b0cc6ac2b844406d990c04204f647357",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: Agency SPS 12 [DLC]",
@@ -2445,7 +2648,8 @@
         ],
         "SKU": "1246",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305778/tomb-raider-agency-sps-12-dlc",
-        "UUID": "9e84cedd928f47a0a7a0e839fa7bfc26"
+        "UUID": "1a75fff1471d4904a6986657413262c6",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider DLC Collection [DLC]",
@@ -2457,7 +2661,8 @@
         ],
         "SKU": "1417",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305718/tomb-raider-dlc-collection-dlc",
-        "UUID": "dc9db4d1622148569d817ff28accd998"
+        "UUID": "65f9325f22cc457cace80239789f6817",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Tomb Raider: 1939 Multiplayer Map Pack [DLC]",
@@ -2469,7 +2674,8 @@
         ],
         "SKU": "1244",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/305738/tomb-raider-1939-multiplayer-map-pack-dlc",
-        "UUID": "8445816b087d459b8da803a0759ccdbf"
+        "UUID": "bed9629467624954ba46a5eb7d8ed9d8",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Dungeon Siege II [PC Download]",
@@ -2481,7 +2687,8 @@
         ],
         "SKU": "1278",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/304833/dungeon-siege-ii-pc-download",
-        "UUID": "022f02f97c1449fb88c46136e4ff2f99"
+        "UUID": "0b3bcd56772749fea78274ceb6fddbcf",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Dungeon Siege [PC Download]",
@@ -2493,7 +2700,8 @@
         ],
         "SKU": "1277",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/304768/dungeon-siege-pc-download",
-        "UUID": "8b4406bcae7449eb9bf73c364bbf68e4"
+        "UUID": "4160713f24f94223a403d6dae0239382",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Deus Ex Collection [PC Download]",
@@ -2505,7 +2713,8 @@
         ],
         "SKU": "1755",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303638/deus-ex-collection-pc-download",
-        "UUID": "5f28e5871adb4694abf5626c85f21391"
+        "UUID": "55267f68bf2f4b3b923561817c8321a2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "LOST SPHEAR [PS4]",
@@ -2517,7 +2726,8 @@
         ],
         "SKU": "SLOSP4EN01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/444633/lost-sphear-ps4",
-        "UUID": "29cab723cf574f1bb09b61ba62cf1373"
+        "UUID": "87b61d8a089243339e575ab3a421c3ab",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Championship Manager 2008 [PC Download]",
@@ -2529,7 +2739,8 @@
         ],
         "SKU": "868",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303543/championship-manager-2008-pc-download",
-        "UUID": "de0e752488594ce3a32ebe6490120216"
+        "UUID": "5063d9da733247289cafa67671fab787",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Quantum Conundrum: The Desmond Debacle [DLC]",
@@ -2541,7 +2752,8 @@
         ],
         "SKU": "1224",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302828/quantum-conundrum-the-desmond-debacle-dlc",
-        "UUID": "39d25685b7b845faa65d89975e85c667"
+        "UUID": "eaff7c219d7746ac8d9ef63d81eb73cb",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Quantum Conundrum: IKE-Caramba! [DLC]",
@@ -2553,7 +2765,8 @@
         ],
         "SKU": "1223",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302808/quantum-conundrum-ike-caramba!-dlc",
-        "UUID": "f3d0bab9643142af970d513da008f2f6"
+        "UUID": "e029cbe0a41740888e3e8418d35eafbe",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft GoL: Things That Go Boom - Challenge Pack 2 [DLC]",
@@ -2565,7 +2778,8 @@
         ],
         "SKU": "1193",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302788/lara-croft-gol-things-that-go-boom-challenge-pack-2-dlc",
-        "UUID": "2c62b280ac3443219ceb171d68faeaaa"
+        "UUID": "2b88f642bcca4138ac4883af7200ca04",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft GoL: Raziel and Kain Character Pack [DLC]",
@@ -2577,7 +2791,8 @@
         ],
         "SKU": "1194",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302768/lara-croft-gol-raziel-and-kain-character-pack-dlc",
-        "UUID": "b37afa4f5e154eea9e5300aa5f375319"
+        "UUID": "e61b92b48f324ba3a76eb05d9bfd30af",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "NieR: Automata™ Black Box Edition [PS4]",
@@ -2589,7 +2804,8 @@
         ],
         "SKU": "SNRAU4EN05_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/435101/nier-automata-black-box-edition-ps4",
-        "UUID": "5a5a76cecc8544aebfca1fcae51d75ea"
+        "UUID": "aa0232d48c024772840da0216c92f150",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "KINGDOM HEARTS – HD 1.5 + 2.5 ReMIX - LIMITED EDITION [PS4]",
@@ -2601,7 +2817,8 @@
         ],
         "SKU": "SKHRX4EN02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/425531/kingdom-hearts-hd-15-plus-25-remix-limited-edition-ps4",
-        "UUID": "39762af0621f4a1d8376fea76fc41dee"
+        "UUID": "a87e3a3eec1147b6bdeb9613f7c9dcc4",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft GoL: Hazardous Reunion - Challenge Pack 3 [DLC]",
@@ -2613,7 +2830,8 @@
         ],
         "SKU": "1195",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302748/lara-croft-gol-hazardous-reunion-challenge-pack-3-dlc",
-        "UUID": "345c51244b5d45e2983ed9cca77bb4e6"
+        "UUID": "c53ba541470f4c9fa520e5711deeaac5",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Lara Croft GoL: All The Trappings - Challenge Pack 1 [DLC]",
@@ -2625,7 +2843,8 @@
         ],
         "SKU": "1196",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302728/lara-croft-gol-all-the-trappings-challenge-pack-1-dlc",
-        "UUID": "4b1e2cfb8b7242119432fc51dd3fe087"
+        "UUID": "3594f1be8f8a456bb36b4fa108862bdd",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Kane & Lynch 2: The Doggie Bag [DLC]",
@@ -2637,7 +2856,8 @@
         ],
         "SKU": "1192",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302613/kane-lynch-2-the-doggie-bag-dlc",
-        "UUID": "44128394c46c4149af307cff20c3fece"
+        "UUID": "a2da0389fef2486ba1449fd5b423e223",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Kane & Lynch 2: Alliance Weapon Pack [DLC]",
@@ -2649,7 +2869,8 @@
         ],
         "SKU": "1190",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302583/kane-lynch-2-alliance-weapon-pack-dlc",
-        "UUID": "6d52dd052aff42fc9e9d455ccb034cae"
+        "UUID": "1a73e6ba11d64cf784bfb99d63e827be",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Kane & Lynch 2: Multiplayer Masks Pack [DLC]",
@@ -2661,7 +2882,8 @@
         ],
         "SKU": "1191",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302598/kane-lynch-2-multiplayer-masks-pack-dlc",
-        "UUID": "6512a6ff2fdf4b26aeb0fa8e45920fa8"
+        "UUID": "a75614c65a3c486481a5f88f07c6a864",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Monster Truck DLC [DLC]",
@@ -2673,7 +2895,8 @@
         ],
         "SKU": "1189",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302383/just-cause-2-monster-truck-dlc-dlc",
-        "UUID": "384f7acb87e54a7dae58b862e380fbb2"
+        "UUID": "b3922a9c434f46aeaaa83003b7b6446f",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Rico´s Signature Gun DLC [DLC]",
@@ -2685,7 +2908,8 @@
         ],
         "SKU": "1183",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302403/just-cause-2-ricos-signature-gun-dlc-dlc",
-        "UUID": "dd6884ca6dcb44cf8e804b71637b35bf"
+        "UUID": "2b4aff39f5d4405aae11e94662c8c59c",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Chevalier Classic DLC [DLC]",
@@ -2697,7 +2921,8 @@
         ],
         "SKU": "1186",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302363/just-cause-2-chevalier-classic-dlc-dlc",
-        "UUID": "b573b96172f4470299daa5ee8c840c4a"
+        "UUID": "aef9a7c9fe474d818c838629ade70063",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Black Market BOOM Pack DLC [DLC]",
@@ -2709,7 +2934,8 @@
         ],
         "SKU": "1185",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302323/just-cause-2-black-market-boom-pack-dlc-dlc",
-        "UUID": "939cb018c8cf4517bd7b7e888e336f0c"
+        "UUID": "ed5eaebcc86d4c0aad0b03f29f467eed",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Bull´s Eye Assault Rifle DLC [DLC]",
@@ -2721,7 +2947,8 @@
         ],
         "SKU": "1188",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302343/just-cause-2-bulls-eye-assault-rifle-dlc-dlc",
-        "UUID": "03fd8dff274b4b71bbb49821d7ced28b"
+        "UUID": "23fbbe1e95e948cb9fb3eea58ff920b4",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Black Market Aerial Pack DLC [DLC]",
@@ -2733,7 +2960,8 @@
         ],
         "SKU": "1187",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302303/just-cause-2-black-market-aerial-pack-dlc-dlc",
-        "UUID": "7a4c202bd45146988c8052223002ecf7"
+        "UUID": "0a4bf6dc10b943ceb6bbb7d492a9aa96",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2 DLC Collection [DLC]",
@@ -2745,7 +2973,8 @@
         ],
         "SKU": "1411",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302263/just-cause-2-dlc-collection-dlc",
-        "UUID": "22f2b6cdc9da46be85dd4d12857e63d3"
+        "UUID": "5d02338aec134375a9489edc3732cf74",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Just Cause 2: Agency Hovercraft DLC [DLC]",
@@ -2757,7 +2986,8 @@
         ],
         "SKU": "1184",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/302283/just-cause-2-agency-hovercraft-dlc-dlc",
-        "UUID": "3823acbfb41644f2885f82bb16c98a34"
+        "UUID": "5cad30568d7e4c358bcaf5411e4f9e47",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Dungeon Siege III: Treasures of the Sun [DLC]",
@@ -2769,7 +2999,8 @@
         ],
         "SKU": "1276",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/301748/dungeon-siege-iii-treasures-of-the-sun-dlc",
-        "UUID": "95bc6deec45d45fc96fb0cce1bff5349"
+        "UUID": "23a3aa35abdd412fac9c79db03f774b2",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Conflict: Desert Storm [PC Download]",
@@ -2781,7 +3012,8 @@
         ],
         "SKU": "1283",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303623/conflict-desert-storm-pc-download",
-        "UUID": "5d0bf523006743f5acb3fb5642e2b8f7"
+        "UUID": "16b977ee45c449eb8ccf21c663eb0294",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "Anachronox [PC Download]",
@@ -2793,7 +3025,8 @@
         ],
         "SKU": "1271",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/303148/anachronox-pc-download",
-        "UUID": "b94fe81e47014a79aa6914b8f3fea194"
+        "UUID": "7398a440456c49b7ad14c853b57aac24",
+        "Game or Merchandise": "Game"
     },
     {
         "title": "KINGDOM HEARTS ACRYLIC MAGNET GALLERY VOL. 4 (DISPLAY SET OF 10)",
@@ -2805,7 +3038,8 @@
         ],
         "SKU": "XKHSLZZZ63_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763883/kingdom-hearts-acrylic-magnet-gallery-vol-4-display-set-of-10",
-        "UUID": "f3b47c1976b24103994c264f3d48c8ed"
+        "UUID": "2fd6b85179e244418b82c60a399d3331",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "THE PRIMALS LIVE IN JAPAN - BEYOND THE SHADOW [BLU-RAY]",
@@ -2817,7 +3051,8 @@
         ],
         "SKU": "XFF14ZZ321_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763822/the-primals-live-in-japan-beyond-the-shadow-blu-ray",
-        "UUID": "6c5e434108414dd487caf25c4ed309e7"
+        "UUID": "5a597e5cacfe4ea9b2d2d0a98e4251ac",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139... TRI-FOLD WALLET - EMIL",
@@ -2829,7 +3064,8 @@
         ],
         "SKU": "XNIERZZ146_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763579/nier-replicant-ver122474487139-tri-fold-wallet-emil",
-        "UUID": "fc1ecf0db913472da5c0d2245f96098e"
+        "UUID": "6decc763edd94b50923eaf1e58082462",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA TRI-FOLD WALLET - YORHA",
@@ -2841,7 +3077,8 @@
         ],
         "SKU": "XNIERZZ145_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763575/nierautomata-tri-fold-wallet-yorha",
-        "UUID": "df6b85b988f64277bcf190ea03c719e9"
+        "UUID": "08c6fb23e4ae4012b8ed026604d5c0d4",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA PLUSH – 2B (YORHA NO.2 TYPE B)",
@@ -2853,7 +3090,8 @@
         ],
         "SKU": "XNIERZZ142_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763563/nierautomata-plush-2b-yorha-no2-type-b",
-        "UUID": "d5bcd7cc7e5b4e57ac34d8696a7a4b7a"
+        "UUID": "f8a7662280924437b03c85003ef94333",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA PLUSH – 9S (YORHA NO. 9 TYPE S)",
@@ -2865,7 +3103,8 @@
         ],
         "SKU": "XNIERZZ143_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763567/nierautomata-plush-9s-yorha-no-9-type-s",
-        "UUID": "2a50d82d46b240c5b01b0e97c1c1f3a8"
+        "UUID": "3622dd3339ee4a90b6f223ecf5977fe3",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA PLUSH – A2 (YORHA TYPE A NO. 2)",
@@ -2877,7 +3116,8 @@
         ],
         "SKU": "XNIERZZ144_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763571/nierautomata-plush-a2-yorha-type-a-no-2",
-        "UUID": "76efe6a90bcb4de783c3cb9d4c5cdb60"
+        "UUID": "926ad29ba4eb4f488f885b0f8748b16e",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS KNITTED PLUSH - SHADOW",
@@ -2889,7 +3129,8 @@
         ],
         "SKU": "XKHSLZZZ66_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763559/kingdom-hearts-knitted-plush-shadow",
-        "UUID": "f9e277b3ff2f4f368ef1ef8a184a2ba2"
+        "UUID": "104750c202cf419ea218334d77ddc407",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS II / BRIGHT ARTS GALLERY - KING MICKEY",
@@ -2901,7 +3142,8 @@
         ],
         "SKU": "XKHSLZZZ65_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763555/kingdom-hearts-ii-bright-arts-gallery-king-mickey",
-        "UUID": "1df7d47b7c464fe3abaaba37817c65f5"
+        "UUID": "2c27dd3eb47a4090a1f41e67cf7621f3",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS / BRIGHT ARTS GALLERY - SHADOW",
@@ -2913,7 +3155,8 @@
         ],
         "SKU": "XKHSLZZZ64_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763551/kingdom-hearts-bright-arts-gallery-shadow",
-        "UUID": "92a7d85ffd8b46d0930a93317fed0068"
+        "UUID": "49629a20cf0340058d1689b31db4f340",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - ROCHE & MOTORCYCLE SET",
@@ -2925,7 +3168,8 @@
         ],
         "SKU": "XFF07ZZ274_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762690/final-fantasy-vii-remake-play-arts-kai-action-figure-roche-motorcycle-set",
-        "UUID": "66396ded654345039bce9250dfc73535"
+        "UUID": "94af348bc6dd4cf2a88b7a954c2448be",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE STATIC ARTS - CLOUD STRIFE",
@@ -2937,7 +3181,8 @@
         ],
         "SKU": "XFF07ZZ272_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762682/final-fantasy-vii-remake-static-arts-cloud-strife",
-        "UUID": "d23c146e798b4d03bd7ff2cbde40106e"
+        "UUID": "e4ef44e92c4545c9b6426b2fb1ee79b1",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - SHINRA SECURITY OFFICER",
@@ -2949,7 +3194,8 @@
         ],
         "SKU": "XFF07ZZ275_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762694/final-fantasy-vii-remake-play-arts-kai-action-figure-shinra-security-officer",
-        "UUID": "0933cb6a58474c63b0dea06d15f9a485"
+        "UUID": "003843e41aed485780dcbf845d64a713",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - ROCHE",
@@ -2961,7 +3207,8 @@
         ],
         "SKU": "XFF07ZZ273_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762686/final-fantasy-vii-remake-play-arts-kai-action-figure-roche",
-        "UUID": "89b779d4a40c46d3899e24b7380f463b"
+        "UUID": "4957150ec278473d9603e531fd52a49f",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE SILVER NECKLACE - BUSTER SWORD LIMITED VER.",
@@ -2973,7 +3220,8 @@
         ],
         "SKU": "XFF07ZZ321_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763479/final-fantasy-vii-remake-silver-necklace-buster-sword-limited-ver",
-        "UUID": "e6fdc967a96345048e425f61d930f7c6"
+        "UUID": "8a9e98ace65c4217983dbf9143ad368e",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE SILVER NECKLACE - BUSTER SWORD",
@@ -2985,7 +3233,8 @@
         ],
         "SKU": "XFF07ZZ320_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763475/final-fantasy-vii-remake-silver-necklace-buster-sword",
-        "UUID": "4fc3fe7110a446bf8192e2fa8080fd29"
+        "UUID": "0937089021a142f386a9838f8f93b6e4",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII COMPILATION VINYL",
@@ -2997,7 +3246,8 @@
         ],
         "SKU": "XFF07ZZ319_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763471/final-fantasy-vii-compilation-vinyl",
-        "UUID": "628e84724afa4d2081e7b1990bc2977d"
+        "UUID": "5f975d58d9b140539304b0af8a30efec",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII SILVER RING - SHINRA MATERIA TYPE B (CITRINE + RUBY) SIZE 7",
@@ -3009,7 +3259,8 @@
         ],
         "SKU": "",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762759/final-fantasy-vii-silver-ring-shinra-materia-type-b-citrine-plus-ruby-size-7",
-        "UUID": "ee84331a935a4c07b736911406954cd7"
+        "UUID": "bab96345dbde4806a12efd7d6f607151",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII SILVER RING - SHINRA MATERIA TYPE A (GREEN TOURMALINE + BLUE SAPPHIRE) SIZE 7",
@@ -3021,7 +3272,8 @@
         ],
         "SKU": "",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762722/final-fantasy-vii-silver-ring-shinra-materia-type-a-green-tourmaline-plus-blue-sapphire-size-7",
-        "UUID": "9c0b54a942264c95a384ca2b0cd5a722"
+        "UUID": "e02b9c5819d94f2f98a46436edd9e10b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII PIN BADGE COLLECTION – CLOUD STRIFE VOL.2(DISPLAY)",
@@ -3033,7 +3285,8 @@
         ],
         "SKU": "XFF07ZZ290_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763426/final-fantasy-vii-pin-badge-collection-cloud-strife-vol2display",
-        "UUID": "ff61c552eff747be924df68817cbf419"
+        "UUID": "a9ff9be172374a0f94a39917c9c9704d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII PIN BADGE COLLECTION – CLOUD STRIFE VOL.1(DISPLAY)",
@@ -3045,7 +3298,8 @@
         ],
         "SKU": "XFF07ZZ288_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763422/final-fantasy-vii-pin-badge-collection-cloud-strife-vol1display",
-        "UUID": "04d5b4cec4e0451a86014f0588525d3f"
+        "UUID": "35c97cabb8dd475bbb05f8783e723a83",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII 25TH ANNIVERSARY STICKER B",
@@ -3057,7 +3311,8 @@
         ],
         "SKU": "XFF07ZZ286_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763410/final-fantasy-vii-25th-anniversary-sticker-b",
-        "UUID": "e60adf6a4a4d497ca94282f93989815e"
+        "UUID": "4747ec1372da4f559952a9f02aaccc24",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII 25TH ANNIVERSARY STICKER A",
@@ -3069,7 +3324,8 @@
         ],
         "SKU": "XFF07ZZ285_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763405/final-fantasy-vii-25th-anniversary-sticker-a",
-        "UUID": "52b6ec7dc6af45b190b77effba497549"
+        "UUID": "21bb7cf5bb2a427b803977853e1c0681",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII 25TH ANNIVERSARY MUG",
@@ -3081,7 +3337,8 @@
         ],
         "SKU": "XFF07ZZ284_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763401/final-fantasy-vii-25th-anniversary-mug",
-        "UUID": "199d3dc8193c47c6872b52c0396b66b0"
+        "UUID": "f7d36126d41f41468d74fb397bfff91c",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII 25TH ANNIVERSARY PLATE",
@@ -3093,7 +3350,8 @@
         ],
         "SKU": "XFF07ZZ283_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763397/final-fantasy-vii-25th-anniversary-plate",
-        "UUID": "7dcf753e7b3f4882909cb104cb3fca0d"
+        "UUID": "885c2ffc85894632b0bd483dbea4805a",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII ADVENT CHILDREN PLUSH - CLOUD STRIFE",
@@ -3105,7 +3363,8 @@
         ],
         "SKU": "XFF07ZZ277_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/763393/final-fantasy-vii-advent-children-plush-cloud-strife",
-        "UUID": "43afb80f2e3b4b63b8180d338ab2b73d"
+        "UUID": "b973e6bfed8140998eb60dbeb48255e3",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "Modulation - FINAL FANTASY Arrangement Album",
@@ -3117,7 +3376,8 @@
         ],
         "SKU": "XFFMOZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762841/modulation-final-fantasy-arrangement-album",
-        "UUID": "be7b9b523e644444aec93fc3ddd07656"
+        "UUID": "6dec8b844c424ae0a6bb445377e02288",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "SQUARE ENIX PRIDE MASCOT LIMITED TANK TOP FOR CHARITY 2022 (S)",
@@ -3129,7 +3389,8 @@
         ],
         "SKU": "",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762604/square-enix-pride-mascot-limited-tank-top-for-charity-2022-s",
-        "UUID": "57177efa98e84d268cea6f9d54ad61ca"
+        "UUID": "0b98d94d630743088acd3dc151d37821",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "SQUARE ENIX PRIDE MASCOT LIMITED T-SHIRT FOR CHARITY 2022 (S)",
@@ -3141,7 +3402,8 @@
         ],
         "SKU": "",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762584/square-enix-pride-mascot-limited-t-shirt-for-charity-2022-s",
-        "UUID": "7d38036ef6614dab81c5f4a4c4e3545d"
+        "UUID": "0d1518828f304e4e9be029d4d87b99c5",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "SQUARE ENIX PRIDE MASCOT LIMITED HOODIE FOR CHARITY 2022 (S)",
@@ -3153,7 +3415,8 @@
         ],
         "SKU": "",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762624/square-enix-pride-mascot-limited-hoodie-for-charity-2022-s",
-        "UUID": "755a46c89cb249368b0205c89c95a034"
+        "UUID": "5909746ad0de4d97b4035ff41a91508d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "LIVE A LIVE HD2D REMAKE ORIGINAL SOUNDTRACK [CD]",
@@ -3165,7 +3428,8 @@
         ],
         "SKU": "XOSTRZZZ75_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762655/live-a-live-hd2d-remake-original-soundtrack-cd",
-        "UUID": "e871e47f231f49fa905a6643c6fcd21f"
+        "UUID": "876bc34af39048a896f4461bf51db359",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER RE[IN]CARNATION CHILL OUT ARRANGEMENT TRACKS [CD]",
@@ -3177,7 +3441,8 @@
         ],
         "SKU": "XNIERZZ136_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762651/nier-reincarnation-chill-out-arrangement-tracks-cd",
-        "UUID": "ebaf76304a1b420c9133d26cc6772f51"
+        "UUID": "edd97d63818d427faead19ccdacfd5d5",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY Series 35th Anniversary Orchestral Compilation Vinyl",
@@ -3189,7 +3454,8 @@
         ],
         "SKU": "XFFVYZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762645/final-fantasy-series-35th-anniversary-orchestral-compilation-vinyl",
-        "UUID": "d0a6e4d138af40439121868e0bc7d4ed"
+        "UUID": "30c9b7eec1b84a07b3295736aa5ca5b8",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES PLUSH - KH III VENTUS",
@@ -3201,7 +3467,8 @@
         ],
         "SKU": "XKHACZZZ10_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762549/kingdom-hearts-series-plush-kh-iii-ventus",
-        "UUID": "5e239fe837c54a4796d69d938dd15f30"
+        "UUID": "f9f6588df10949f2be87e5cb9a3174df",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY KNITTED PLUSH - MOOGLE",
@@ -3213,7 +3480,8 @@
         ],
         "SKU": "XFFKPZZZ02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762545/final-fantasy-knitted-plush-moogle",
-        "UUID": "9c5d8c2c52414f7d818411d953b883d8"
+        "UUID": "9104bb6daadc4b67af1b97854fb09681",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY KNITTED PLUSH – CACTUAR",
@@ -3225,7 +3493,8 @@
         ],
         "SKU": "XFFKPZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762541/final-fantasy-knitted-plush-cactuar",
-        "UUID": "b81dbbd064e4480bb3f4a5ffdfdf6eb1"
+        "UUID": "03b64c0005134bf9959eccf79f4cbca5",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS POSTCARD SET B ILLUSTRATED BY TETSUYA NOMURA",
@@ -3237,7 +3506,8 @@
         ],
         "SKU": "XKHSLZZZ59_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762152/kingdom-hearts-postcard-set-b-illustrated-by-tetsuya-nomura",
-        "UUID": "874ab20a92fb45f5a96ae91784fe5664"
+        "UUID": "84f0cd4018ef437ca437a42229664a73",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS POSTCARD SET A ILLUSTRATED BY TETSUYA NOMURA",
@@ -3249,7 +3519,8 @@
         ],
         "SKU": "XKHSLZZZ58_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762144/kingdom-hearts-postcard-set-a-illustrated-by-tetsuya-nomura",
-        "UUID": "22e84d87c4b94c4a985c864a48d70bfa"
+        "UUID": "4e66c2a5a6b14ae9a3fc5616395dccd0",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XI MUSIC BOX SET - RONFAURE - GUSTABERG - SARUTABARUTA",
@@ -3261,7 +3532,8 @@
         ],
         "SKU": "XFF11ZZZ15_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762120/final-fantasy-xi-music-box-set-ronfaure-gustaberg-sarutabaruta",
-        "UUID": "bd26416b005943ef81f32915fb82953b"
+        "UUID": "56eef33f9bc849b883ef54376122cd20",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES PLUSH - KH II KING MICKEY 20TH ANNIVERSARY VERSION",
@@ -3273,7 +3545,8 @@
         ],
         "SKU": "XKHSLZZZ61_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762160/kingdom-hearts-series-plush-kh-ii-king-mickey-20th-anniversary-version",
-        "UUID": "8537fa810d44465b9a582ae6903f1572"
+        "UUID": "93a9e662c929484e9756acf1e390f030",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS 20TH ANNIVERSARY CHOPSTICKS & CHOPSTICK RESTS",
@@ -3285,7 +3558,8 @@
         ],
         "SKU": "XKHSLZZZ57_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762140/kingdom-hearts-20th-anniversary-chopsticks-chopstick-rests",
-        "UUID": "b556cdbf54054b138eedb4d657d51f91"
+        "UUID": "a686e64a3f584bc7b66f8849b9acf372",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XI PLUSH - SHANTOTTO",
@@ -3297,7 +3571,8 @@
         ],
         "SKU": "XFF11ZZZ18_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762132/final-fantasy-xi-plush-shantotto",
-        "UUID": "b316b262b9e94f39b124c123d399ade2"
+        "UUID": "a55d6b714f37479b90d2928dae1313de",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XI MUG - MANDRAGORA",
@@ -3309,7 +3584,8 @@
         ],
         "SKU": "XFF11ZZZ16_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762124/final-fantasy-xi-mug-mandragora",
-        "UUID": "24f9184678b14e0fbd84eb65daab55ca"
+        "UUID": "d9efa6eb858d480aa0a104616300a3ce",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS POSTCARD SET C ILLUSTRATED BY TETSUYA NOMURA",
@@ -3321,7 +3597,8 @@
         ],
         "SKU": "XKHSLZZZ60_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762156/kingdom-hearts-postcard-set-c-illustrated-by-tetsuya-nomura",
-        "UUID": "0419d3936d0b40df84af4b6f3871e8e0"
+        "UUID": "c4f0a6e046884d63bcbeee6557aedd27",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XI PLUSH - MANDRAGORA",
@@ -3333,7 +3610,8 @@
         ],
         "SKU": "XFF11ZZZ19_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762136/final-fantasy-xi-plush-mandragora",
-        "UUID": "04af6c86c6c44128a7bfcaf3b122bdc8"
+        "UUID": "f48089c0e7a3405d9a25a727b335d559",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XI PLUSH - GOBLIN",
@@ -3345,7 +3623,8 @@
         ],
         "SKU": "XFF11ZZZ17_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/762128/final-fantasy-xi-plush-goblin",
-        "UUID": "9d0df8698a694b72ad2c33623e217f7e"
+        "UUID": "aeca04448559486699da2ce0fc2c29fe",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS PLUSH - King Mickey",
@@ -3357,7 +3636,8 @@
         ],
         "SKU": "XKHPLZZZ04_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/532495/kingdom-hearts-plush-king-mickey",
-        "UUID": "da5d0dbe8c59413bb3c95608a14b1a64"
+        "UUID": "55fe1e264ec8460593ac53da4c19c406",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV MINION FIGURINE - RYNE",
@@ -3369,7 +3649,8 @@
         ],
         "SKU": "XFF14ZZ195_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/629480/final-fantasy-xiv-minion-figurine-ryne",
-        "UUID": "ca02a77ecb804f1da1fb4eea45b0e78f"
+        "UUID": "b3d431a7f3f64aeca08168b9179de2b5",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER RE[IN]CARNATION PLUSH - MAMA SIZE S",
@@ -3381,7 +3662,8 @@
         ],
         "SKU": "XNIERZZ115_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/684595/nier-reincarnation-plush-mama-size-s",
-        "UUID": "c6d77433eef0446389e7c57fac17a78c"
+        "UUID": "c36c2a693a9e4959909f9aaa56d1b778",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE BRIGHT ARTS GALLERY - CACTUAR",
@@ -3393,7 +3675,8 @@
         ],
         "SKU": "XFF07ZZ270_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/761176/final-fantasy-vii-remake-bright-arts-gallery-cactuar",
-        "UUID": "0f4089dbfbed41efb28be6edae286fc6"
+        "UUID": "db7f42dc83964598be597dbde977664d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE BRIGHT ARTS GALLERY - TONBERRY",
@@ -3405,7 +3688,8 @@
         ],
         "SKU": "XFF07ZZ271_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/761180/final-fantasy-vii-remake-bright-arts-gallery-tonberry",
-        "UUID": "ee3a8c18bce44d18909d094c2391fb7d"
+        "UUID": "8fcb7129b97a4673be358566729e6f70",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - JESSIE & MOTORCYCLE SET",
@@ -3417,7 +3701,8 @@
         ],
         "SKU": "XFF07ZZ230_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/648676/final-fantasy-vii-remake-play-arts-kai-action-figure-jessie-motorcycle-set",
-        "UUID": "f860f162e28746d8ba7c72cc9351d06e"
+        "UUID": "7a2f8b48646f432cb25ddd439c15502b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "The Centennial Case: A Shijima Story Original Soundtrack",
@@ -3429,7 +3714,8 @@
         ],
         "SKU": "XTCCSZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/758573/the-centennial-case-a-shijima-story-original-soundtrack",
-        "UUID": "642a2d4da6fa450faf1ab99ec500c2b2"
+        "UUID": "1d6602c66b7d4464a21d316a2cfccd3f",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV MINION FIGURINE - Y'SHTOLA",
@@ -3441,7 +3727,8 @@
         ],
         "SKU": "XFF14ZZ196_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/629484/final-fantasy-xiv-minion-figurine-y-shtola",
-        "UUID": "d2fe29a5e9ab4f8e98ec24529abc8f4e"
+        "UUID": "38ef3b61643f460ea324df63f068b54a",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY FLUFFY FLUFFY PLUSH - MOOGLE",
@@ -3453,7 +3740,8 @@
         ],
         "SKU": "XFFPLZZZ61_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696843/final-fantasy-fluffy-fluffy-plush-moogle",
-        "UUID": "bee09eeaf4a5471bbf4c63bdf5e08eb4"
+        "UUID": "afb1f06607d14fe6b55c10c27ad5477d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "Romancing SaGa Re;univerSe Original Soundtrack vol.2 [CD]",
@@ -3465,7 +3753,8 @@
         ],
         "SKU": "XRSRUZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/758577/romancing-saga-reuniverse-original-soundtrack-vol2-cd",
-        "UUID": "d477bebaad7c4d5ebd782bdeb3c55e08"
+        "UUID": "9ceb63d7db78428eb4f8a374ab1ca095",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY IX BRING ARTS KUJA & AMARANT CORAL",
@@ -3477,7 +3766,8 @@
         ],
         "SKU": "XFF7FZZZ02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/593889/final-fantasy-ix-bring-arts-kuja-amarant-coral",
-        "UUID": "472c2f63343141c0b8a1c96aacf3d471"
+        "UUID": "2d587542e68643d2933f3c787357212f",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "TRIALS OF MANA 25th Anniversary ORCHESTRA CONCERT CD",
@@ -3489,7 +3779,8 @@
         ],
         "SKU": "XTM00ZZZ12_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696867/trials-of-mana-25th-anniversary-orchestra-concert-cd",
-        "UUID": "394ae754dba84f7aa02cadf8dce2a7eb"
+        "UUID": "73e2ec6343b4492c8a0c378f71f0b062",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139... FACE CUSHION - EMIL",
@@ -3501,7 +3792,8 @@
         ],
         "SKU": "XNIERZZ104_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/668184/nier-replicant-ver122474487139-face-cushion-emil",
-        "UUID": "5833556a52d545caae536f3b7c1c3e6d"
+        "UUID": "1842bfe0f6e445ae8c333422b15b5e5d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY JIGSAW PUZZLE - CHOCOBO PARTY UP! - 1000 PIECES",
@@ -3513,7 +3805,8 @@
         ],
         "SKU": "XCPUPZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/641533/final-fantasy-jigsaw-puzzle-chocobo-party-up!-1000-pieces",
-        "UUID": "9d6a96388a57455dbed29183f3a50d86"
+        "UUID": "8e600faa7b574a41a1fdeed2b6ad1eb3",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS LIGHT UP KEYBLADE – KINGDOM KEY",
@@ -3525,7 +3818,8 @@
         ],
         "SKU": "XKHSLZZZ56_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725922/kingdom-hearts-light-up-keyblade-kingdom-key",
-        "UUID": "37c676d8dbdd44c29b2903c38fed17d3"
+        "UUID": "c4f044b3672f4f6398410cc047ddee85",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS 20TH ANNIVERSARY PLATE COLLECTION VOL. 2 DISPLAY",
@@ -3537,7 +3831,8 @@
         ],
         "SKU": "XKHSLZZZ53_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725910/kingdom-hearts-20th-anniversary-plate-collection-vol-2-display",
-        "UUID": "c15e4af7343b4abe971428e5d7988d10"
+        "UUID": "d77a6db13d3d44cb8cd03a4db460a813",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS 20TH ANNIVERSARY PLATE COLLECTION VOL. 1 DISPLAY",
@@ -3549,7 +3844,8 @@
         ],
         "SKU": "XKHSLZZZ51_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725902/kingdom-hearts-20th-anniversary-plate-collection-vol-1-display",
-        "UUID": "a475fc4af82d4f00af00a5dc76136f44"
+        "UUID": "eb29fa8cfb2c4473931230660230e676",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES PLUSH - KH II NAMINÉ",
@@ -3561,7 +3857,8 @@
         ],
         "SKU": "XKHSLZZZ54_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725914/kingdom-hearts-series-plush-kh-ii-namine",
-        "UUID": "c2ce89e2c7c34877a8b1a5dc90bdf01b"
+        "UUID": "ef6a9628d01748b887478a638ef580ff",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES PLUSH - KH II ROXAS",
@@ -3573,7 +3870,8 @@
         ],
         "SKU": "XKHSLZZZ55_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725918/kingdom-hearts-series-plush-kh-ii-roxas",
-        "UUID": "a2df2355415d44d480ea9531525cda86"
+        "UUID": "c706901367e54a2183b7382bbe46078b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - YUFFIE KISARAGI",
@@ -3585,7 +3883,8 @@
         ],
         "SKU": "XFF07ZZ237_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/668356/final-fantasy-vii-remake-play-arts-kai-action-figure-yuffie-kisaragi",
-        "UUID": "4b7983c564f544d5949f6be3d6751cd9"
+        "UUID": "7ba87c2a50164e7691f8e8097ae771e7",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "TRIANGLE STRATEGY ORIGINAL SOUNDTRACK [CD]",
@@ -3597,7 +3896,8 @@
         ],
         "SKU": "XTSORZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719157/triangle-strategy-original-soundtrack-cd",
-        "UUID": "804c9a26d0ff49069160f3bbc56c4fb8"
+        "UUID": "9c17665c8bcb4f85b11ea8d2d057c140",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV Plush Cushion - Fat Chocobo",
@@ -3609,7 +3909,8 @@
         ],
         "SKU": "XFF14ZZZ63_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/445879/final-fantasy-xiv-plush-cushion-fat-chocobo",
-        "UUID": "f7046ae1c2ec4b7ea2922557aa82c363"
+        "UUID": "f98636460d5845b28515c7ad4b766985",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY IX [VINYL]",
@@ -3621,7 +3922,8 @@
         ],
         "SKU": "XFF09ZZZ17_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/731678/final-fantasy-ix-vinyl",
-        "UUID": "6cd2d9106d9a4e61b912b9b92bf4bc26"
+        "UUID": "76016b13d3d04b95acc9e34e730a3dc2",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "CHRONO CROSS: THE RADICAL DREAMERS EDITION VINYL",
@@ -3633,7 +3935,8 @@
         ],
         "SKU": "XCRBOZZZ02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/730855/chrono-cross-the-radical-dreamers-edition-vinyl",
-        "UUID": "500d5f64384d454a99439e7ecfb616b9"
+        "UUID": "4c48ea3b796a4cf2ab4f9e217e4be848",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "CHOCOBO AND FRIENDS - SELECT TRACKS FROM THE FANTASY SERIES COMPI VINYL SET",
@@ -3645,7 +3948,8 @@
         ],
         "SKU": "XSTCOZZZ02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/730655/chocobo-and-friends-select-tracks-from-the-fantasy-series-compi-vinyl-set",
-        "UUID": "0a52c9e6949440f78293109d5a30a4f2"
+        "UUID": "6ff1f9633b3140a49f8390bcd0385d37",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES PLUSH - KH II RIKU",
@@ -3657,7 +3961,8 @@
         ],
         "SKU": "XKHSLZZZ49_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725956/kingdom-hearts-series-plush-kh-ii-riku",
-        "UUID": "4655aab290b547c98880044ee4a4325b"
+        "UUID": "c997cde414dd4145aa8b1a358793e450",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES PLUSH - KH II SORA",
@@ -3669,7 +3974,8 @@
         ],
         "SKU": "XKHSLZZZ48_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725952/kingdom-hearts-series-plush-kh-ii-sora",
-        "UUID": "caf8f8dc9cd745bdb4f2ccd0e630bbac"
+        "UUID": "cee56dd9b27241c6b66cdd30e0dfafba",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS TOTE BAG WITH PLUSH",
@@ -3681,7 +3987,8 @@
         ],
         "SKU": "XKHSLZZZ46_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719995/kingdom-hearts-tote-bag-with-plush",
-        "UUID": "d10948180db9411d9f463395350dd6c6"
+        "UUID": "f6e648c4afc8490b850dfa5a4b0d84d5",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - AERITH GAINSBOROUGH",
@@ -3693,7 +4000,8 @@
         ],
         "SKU": "XFF07ZZ159_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/605752/final-fantasy-vii-remake-play-arts-kai-action-figure-aerith-gainsborough",
-        "UUID": "f84d4b6debd24a97a0295ba90e1a5730"
+        "UUID": "b135d6a1b5e648a39d90521ebfc3413d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY FLUFFY FLUFFY PLUSH - CHOCOBO",
@@ -3705,7 +4013,8 @@
         ],
         "SKU": "XFFPLZZZ60_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696738/final-fantasy-fluffy-fluffy-plush-chocobo",
-        "UUID": "f13b83fd988c400db758a3bff64282fc"
+        "UUID": "8261a165250a414d9886dc3cc8dc5b10",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "THE WORLD ENDS WITH YOU THE ANIMATION FIGURE - BEAT",
@@ -3717,7 +4026,8 @@
         ],
         "SKU": "XTWEWZZZ30_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/676751/the-world-ends-with-you-the-animation-figure-beat",
-        "UUID": "1c0b2ab2c87b4100b6595aecdb3f96e4"
+        "UUID": "065556771e184648aab9044f2368427d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV ROUND CUSHION - MOOGLE TREASURE TROVE",
@@ -3729,7 +4039,8 @@
         ],
         "SKU": "XFF14ZZ194_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/629476/final-fantasy-xiv-round-cushion-moogle-treasure-trove",
-        "UUID": "f9c1d293bcf74a83af8ae2999831b60a"
+        "UUID": "4b576f93ec114bafaeb76f9dc127027d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "THE PRIMALS - BEYOND THE SHADOW [CD]",
@@ -3741,7 +4052,8 @@
         ],
         "SKU": "XFF14ZZ320_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/725967/the-primals-beyond-the-shadow-cd",
-        "UUID": "0ba20545c886436ba75e2e6c3714366b"
+        "UUID": "0c78c80b760b48e1b9674c8eb940222d",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS III ALBA & ATER SET",
@@ -3753,7 +4065,8 @@
         ],
         "SKU": "XKH3HZZZ03_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/687414/kingdom-hearts-iii-alba-ater-set",
-        "UUID": "569d02751adb433795cd53a0ebef8e82"
+        "UUID": "350e29f71ad643a4b995488c770969aa",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE - JESSIE, CLOUD & MOTORCYCLE SET",
@@ -3765,7 +4078,8 @@
         ],
         "SKU": "XFF07ZZ231_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/648680/final-fantasy-vii-remake-play-arts-kai-action-figure-jessie-cloud-motorcycle-set",
-        "UUID": "a884086de31d4692983635523a4a10b8"
+        "UUID": "5ff7c56004f74b8bb67594e895f8b682",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV: ENDWALKER 7-INCH VINYL SINGLE",
@@ -3777,7 +4091,8 @@
         ],
         "SKU": "XFF14ZZ270_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685471/final-fantasy-xiv-endwalker-7-inch-vinyl-single",
-        "UUID": "22753af1c2f9418fabc86f47eb3c032b"
+        "UUID": "0734fbb5c61049478ef0ad16cf9197ba",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "TRIALS OF MANA RIESZ - BY FLARE",
@@ -3789,7 +4104,8 @@
         ],
         "SKU": "XTM00ZZZ11_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/676764/trials-of-mana-riesz-by-flare",
-        "UUID": "3cef76c4458e443c88ba32d4ecd3039d"
+        "UUID": "5aaf760e81344a4f94cda57ebf5246ea",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS III BRING ARTS - SORA VER. 2",
@@ -3801,7 +4117,8 @@
         ],
         "SKU": "XKH3PZZZ14_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/684930/kingdom-hearts-iii-bring-arts-sora-ver-2",
-        "UUID": "ba45947e1fda49b89f5ee4d0fbdbf1e0"
+        "UUID": "d44e0db6f57e4c03b39d3f34b9af36a6",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE DIGITAL CLOCK - BUSTER SWORD",
@@ -3813,7 +4130,8 @@
         ],
         "SKU": "XFF07ZZ269_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/722190/final-fantasy-vii-remake-digital-clock-buster-sword",
-        "UUID": "db2d26381d72483fa68c135757e93b6d"
+        "UUID": "273c9cd3ac4b493aa86cc49d070ac5a3",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE STATIC ARTS TIFA LOCKHART DRESS VER.",
@@ -3825,7 +4143,8 @@
         ],
         "SKU": "XFF07ZZ261_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/694811/final-fantasy-vii-remake-static-arts-tifa-lockhart-dress-ver",
-        "UUID": "06f8f4ee77494d179b5fe3024c76c841"
+        "UUID": "1060c5e12c274cadb7dd142b8131879b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "CHOCOBO GP ORIGINAL SOUNDTRACK",
@@ -3837,7 +4156,8 @@
         ],
         "SKU": "XSTCOZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/723013/chocobo-gp-original-soundtrack",
-        "UUID": "e776b4bd0c0e411db951a5c3bf80ed43"
+        "UUID": "bfa8aea5faf44b3cb81143cbf4bda112",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA® 2B (YORHA NO. 2 TYPE B) - BY FLARE",
@@ -3849,7 +4169,8 @@
         ],
         "SKU": "XNIERZZZ75_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/629280/nierautomata-2b-yorha-no-2-type-b-by-flare",
-        "UUID": "abe6950a69ec4c6ea6c106edebfd5757"
+        "UUID": "a5d1de7ef7d24cca888aa68e54b5c463",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "STRANGER OF PARADISE FINAL FANTASY ORIGIN ORIGINAL SOUNDTRACK [CD]",
@@ -3861,7 +4182,8 @@
         ],
         "SKU": "XSPOSZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/723029/stranger-of-paradise-final-fantasy-origin-original-soundtrack-cd",
-        "UUID": "bdf967c547e540e5925d1707acc9243f"
+        "UUID": "520638027f924aadad40790447bda5bf",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII ACTION DOLL RED XIII",
@@ -3873,7 +4195,8 @@
         ],
         "SKU": "XFF07ZZ138_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696734/final-fantasy-vii-action-doll-red-xiii",
-        "UUID": "76727cc81e4b4d4eb8ec970256c5a604"
+        "UUID": "c9ec0b1283694da18bb0039b4d1662f2",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "BABYLON'S FALL ORIGINAL SOUNDTRACK [CD]",
@@ -3885,7 +4208,8 @@
         ],
         "SKU": "XFBRTZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719207/babylon-s-fall-original-soundtrack-cd",
-        "UUID": "f6c7cf1e71ac4255a161178cf1b95475"
+        "UUID": "28205285ca6843c5a0c4b0b7fcfaac57",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE FOLDABLE EYEGLASS CASE - SHINRA",
@@ -3897,7 +4221,8 @@
         ],
         "SKU": "XFF07ZZ268_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/722162/final-fantasy-vii-remake-foldable-eyeglass-case-shinra",
-        "UUID": "f4cd597e5d5c4efa9897d433a16ba4d3"
+        "UUID": "4a82f5db53924a58a3db8a9aea7fdb33",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "STRANGER OF PARADISE FINAL FANTASY ORIGIN PLAY ARTS -KAI- ™ ACTION FIGURE - JACK GARLAND",
@@ -3909,7 +4234,8 @@
         ],
         "SKU": "XFFPAZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/722158/stranger-of-paradise-final-fantasy-origin-play-arts-kai-action-figure-jack-garland",
-        "UUID": "ec52a9dbde8240d2b9f7677a7513821e"
+        "UUID": "74e370b078fa4ec0908beb537b9ee4a8",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139... RUBBER MASCOT FIGURE KEYCHAIN – EMIL",
@@ -3921,7 +4247,8 @@
         ],
         "SKU": "XNIERZZ133_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/720348/nier-replicant-ver122474487139-rubber-mascot-figure-keychain-emil",
-        "UUID": "2af00d1148004e8b97f2a79440f254cc"
+        "UUID": "9c4cd5c187db49c983d7e5fef75dcb4c",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139… PLUSH - EMIL",
@@ -3933,7 +4260,8 @@
         ],
         "SKU": "XNIERZZ132_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/720344/nier-replicant-ver122474487139...-plush-emil",
-        "UUID": "3564c44ad4bc4bfeba11267b94679838"
+        "UUID": "d4cde3d8b5634211a40dcb07a8c86c1b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139… PLUSH - KAINÉ",
@@ -3945,7 +4273,8 @@
         ],
         "SKU": "XNIERZZ131_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/720340/nier-replicant-ver122474487139...-plush-kaine",
-        "UUID": "cf9d0a3a0c304147af13b46f6aba7b2e"
+        "UUID": "6eeab12909f9404c98f44ab4766b0d19",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139… PLUSH - NIER",
@@ -3957,7 +4286,8 @@
         ],
         "SKU": "XNIERZZ130_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/720336/nier-replicant-ver122474487139...-plush-nier",
-        "UUID": "d18be1fc4dbb4185b091eefcedd839d5"
+        "UUID": "500998dfadb84fd3aaeca6063988c326",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "LIVE A LIVE STRUCTURE ARTS - THE STEEL TITAN",
@@ -3969,7 +4299,8 @@
         ],
         "SKU": "XSLATZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719952/live-a-live-structure-arts-the-steel-titan",
-        "UUID": "4fc0147c04ce4f1baf61bad4b72e7ea9"
+        "UUID": "db5b06d45c3147eabe873b2160fd70a2",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "DRAGON QUEST VI: Realms of Revelation BRING ARTS TERRY",
@@ -3981,7 +4312,8 @@
         ],
         "SKU": "XDQ00ZZZ06_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719022/dragon-quest-vi-realms-of-revelation-bring-arts-terry",
-        "UUID": "66240087065a407491652f8da79fef35"
+        "UUID": "51893cb7f4d340248a2ec118a97543e7",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "SPIRITALE ATELIER RYZA 2: LOST LEGENDS & THE SECRET FAIRY 1/6 SCALE FIGURE",
@@ -3993,7 +4325,8 @@
         ],
         "SKU": "XRSLFZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719763/spiritale-atelier-ryza-2-lost-legends-the-secret-fairy-16-scale-figure",
-        "UUID": "391c8802a96847e3b2e41f0a77be3823"
+        "UUID": "b1fe69e9c98c4fecbffc88127006a347",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY TACTICS BRING ARTS ACTION FIGURE - DELITA HEIRAL",
@@ -4005,7 +4338,8 @@
         ],
         "SKU": "XFFTBZZZ03_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719839/final-fantasy-tactics-bring-arts-action-figure-delita-heiral",
-        "UUID": "5e5fb462d3ec4404972151027791b482"
+        "UUID": "97fceb7ca0524acdbac9df4aa85ec36a",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "CHRONO CROSS MUSIC BOX CHRONO CROSS -SCARS OF TIME-",
@@ -4017,7 +4351,8 @@
         ],
         "SKU": "XCC00ZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719882/chrono-cross-music-box-chrono-cross-scars-of-time-",
-        "UUID": "0f41ffcb52064d498266c08051ebe6e2"
+        "UUID": "6c1f1e2c103d44f380bb01cf4b50cd20",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV VINYL LP BOX - Wave 2",
@@ -4029,7 +4364,8 @@
         ],
         "SKU": "XFF14ZZ228_UK_NEW",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/719136/final-fantasy-xiv-vinyl-lp-box-wave-2",
-        "UUID": "6a4c9262c49b4495b16708486b6df6a5"
+        "UUID": "709956274cfb4e8bb2489ecef4ce996e",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV MASK CASE - JOB ICONS",
@@ -4041,7 +4377,8 @@
         ],
         "SKU": "XFF14ZZ193_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/629468/final-fantasy-xiv-mask-case-job-icons",
-        "UUID": "0d9a41e781614067b5c69d1d460b72d0"
+        "UUID": "40977397aaad4b329b6350ab5d00214a",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "ENDWALKER: FINAL FANTASY XIV Original Soundtrack [BLU-RAY]",
@@ -4053,7 +4390,8 @@
         ],
         "SKU": "XFF14ZZ289_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718948/endwalker-final-fantasy-xiv-original-soundtrack-blu-ray",
-        "UUID": "06333c9ba814429b9bc07e06356175d7"
+        "UUID": "180ecc4336914224b3a481f554d9e539",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY V MUSIC BOX - HOME, SWEET HOME",
@@ -4065,7 +4403,8 @@
         ],
         "SKU": "XFF07ZZ266_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718922/final-fantasy-v-music-box-home-sweet-home",
-        "UUID": "0c188272f889405db7ba1966b77b73f6"
+        "UUID": "a21234c487c3412f895b4f61206dfe80",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VI MUSIC BOX - SEARCHING FOR FRIENDS",
@@ -4077,7 +4416,8 @@
         ],
         "SKU": "XFF07ZZ267_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718926/final-fantasy-vi-music-box-searching-for-friends",
-        "UUID": "b812207b19df487c96ac7477e2c555a0"
+        "UUID": "70e3e8f5f5044a02beea58da4bdc6840",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY III MUSIC BOX - THE CRYSTAL TOWER",
@@ -4089,7 +4429,8 @@
         ],
         "SKU": "XFF07ZZ264_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718914/final-fantasy-iii-music-box-the-crystal-tower",
-        "UUID": "ebd935b443c24cf9b86e034f5a2a831b"
+        "UUID": "109d170f9f4e434989f81b0339cd27bf",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY IV MUSIC BOX - THEME OF LOVE",
@@ -4101,7 +4442,8 @@
         ],
         "SKU": "XFF07ZZ265_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718918/final-fantasy-iv-music-box-theme-of-love",
-        "UUID": "2ce83af3597e4b0cb047c6e584ebd06b"
+        "UUID": "99da2092bac8452c8bd5b28792382686",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY MUSIC BOX - OPENING THEME",
@@ -4113,7 +4455,8 @@
         ],
         "SKU": "XFF07ZZ262_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718906/final-fantasy-music-box-opening-theme",
-        "UUID": "6e1b2ce0abe1458b94b6be9dc6b8760b"
+        "UUID": "ace434c7111d47f08b1c2b79a37d8c22",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY II MUSIC BOX - MAIN THEME",
@@ -4125,7 +4468,8 @@
         ],
         "SKU": "XFF07ZZ263_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718910/final-fantasy-ii-music-box-main-theme",
-        "UUID": "2679939e1c87484f928d09f279e41f5f"
+        "UUID": "58147ba9fdea4f399369f235396a2ade",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV GIANT CUSHION - FAT CAT",
@@ -4137,7 +4481,8 @@
         ],
         "SKU": "XFF14ZZ171_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718902/final-fantasy-xiv-giant-cushion-fat-cat",
-        "UUID": "1748540c66bc4e5490e054b6362bbb67"
+        "UUID": "ea9fd3a73f6240929fd40fb103805647",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NEO: THE WORLD ENDS WITH YOU SILVER NECKLACE - DANGLING MR. MEW",
@@ -4149,7 +4494,8 @@
         ],
         "SKU": "XTWEWZZZ18_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/648576/neo-the-world-ends-with-you-silver-necklace-dangling-mr-mew",
-        "UUID": "8365aefeb3d34aafadc20bf8743cc9de"
+        "UUID": "20c80c7819614dc89ab2a75a79478f51",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NEO: THE WORLD ENDS WITH YOU ACRYLIC DIORAMA",
@@ -4161,7 +4507,8 @@
         ],
         "SKU": "XTWEWZZZ26_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/648780/neo-the-world-ends-with-you-acrylic-diorama",
-        "UUID": "40ef5e9e187d4a288ca62edcf1281067"
+        "UUID": "18c79a8f1b1346c29229cc95832dbfb4",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "VOICE OF CARDS: THE ISLE DRAGON ROARS METAL CARD SET",
@@ -4173,7 +4520,8 @@
         ],
         "SKU": "XVOCZZZ000_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685764/voice-of-cards-the-isle-dragon-roars-metal-card-set",
-        "UUID": "4fca989a197c4ce58511abfcd5157fc8"
+        "UUID": "938c26be721445949500b6ca09f6c480",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NEO: THE WORLD ENDS WITH YOU ARTICULATED SILVER NECKLACE - MR. MEW",
@@ -4185,7 +4533,8 @@
         ],
         "SKU": "XTWEWZZZ19_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/648587/neo-the-world-ends-with-you-articulated-silver-necklace-mr-mew",
-        "UUID": "1b94d2d203194f36a41a26d8a5da727e"
+        "UUID": "cb0f664758064f4d96ef9899ce21bbf6",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY IX ACTION DOLL VIVI ORNITIER",
@@ -4197,7 +4546,8 @@
         ],
         "SKU": "XFF09ZZZ16_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696960/final-fantasy-ix-action-doll-vivi-ornitier",
-        "UUID": "2d3f865d221542b185715047f58431f7"
+        "UUID": "0af94561e48847c3bb0c678d2c4109d3",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA JIGSAW PUZZLE - 1000 PIECE A",
@@ -4209,7 +4559,8 @@
         ],
         "SKU": "XNIERZZ127_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718228/nierautomata-jigsaw-puzzle-1000-piece-a",
-        "UUID": "8a79ca076fa4475fa23eb64eb99807fc"
+        "UUID": "bae8f8fd11fb40e7906dcf8982f84546",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER:AUTOMATA JIGSAW PUZZLE - 1000 PIECE B",
@@ -4221,7 +4572,8 @@
         ],
         "SKU": "XNIERZZ128_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718232/nierautomata-jigsaw-puzzle-1000-piece-b",
-        "UUID": "d9e0e1abb8e5441d92c19ed1b01356a3"
+        "UUID": "7cb80e6db0944241aa1cc4c3daff0361",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "SQUARE ENIX JAZZ - CHRONO TRIGGER",
@@ -4233,7 +4585,8 @@
         ],
         "SKU": "XCHTRZZZ04_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718224/square-enix-jazz-chrono-trigger",
-        "UUID": "e3433482047249d0b843263f2dd12227"
+        "UUID": "f624bc712b8e43bea2525aa37aca28a8",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER RE[IN]CARNATION SILVER NECKLACE - CARRIER",
@@ -4245,7 +4598,8 @@
         ],
         "SKU": "XNIERZZ126_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718129/nier-reincarnation-silver-necklace-carrier",
-        "UUID": "4758105d57854c5da618441ab565547d"
+        "UUID": "d80cacf5a24c47dd820c01b680f34c91",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER RE[IN]CARNATION SILVER NECKLACE - MAMA",
@@ -4257,7 +4611,8 @@
         ],
         "SKU": "XNIERZZ125_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/718125/nier-reincarnation-silver-necklace-mama",
-        "UUID": "25182618267f4ac5bb1870f1674f01ab"
+        "UUID": "2c424209af6e4336946dd49d2e77fb2f",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS Series PLUSH - KH III XION",
@@ -4269,7 +4624,8 @@
         ],
         "SKU": "XKH3PZZZ04_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696978/kingdom-hearts-series-plush-kh-iii-xion",
-        "UUID": "eddaf32850d2463588968d9a2645843d"
+        "UUID": "5ac281b790e84e1ca63455454b5dabb0",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS Series PLUSH - KH III AXEL",
@@ -4281,7 +4637,8 @@
         ],
         "SKU": "XKH3PZZZ03_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696974/kingdom-hearts-series-plush-kh-iii-axel",
-        "UUID": "a635bfcc63d04c9bb69eea6ecdf6352a"
+        "UUID": "365a826901ac4289ba3d79928a854a92",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS Series PLUSH - KH III ROXAS",
@@ -4293,7 +4650,8 @@
         ],
         "SKU": "XKH3PZZZ02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696970/kingdom-hearts-series-plush-kh-iii-roxas",
-        "UUID": "b903f09cc28e4e14b98ea5ccf6597992"
+        "UUID": "44a57b7569f8438dae5a7980bd698859",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS Series PLUSH - KH III RIKU",
@@ -4305,7 +4663,8 @@
         ],
         "SKU": "XKH3PZZZ06_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696965/kingdom-hearts-series-plush-kh-iii-riku",
-        "UUID": "c8de1b4e0afc4d0aa34de8b63a15ac6c"
+        "UUID": "15d8570a3ab8438fb975ceb0e161cfe4",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY BRAVE EXVIUS THE ART WORKS V",
@@ -4317,7 +4676,8 @@
         ],
         "SKU": "PFFBEZZZ15_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696742/final-fantasy-brave-exvius-the-art-works-v",
-        "UUID": "c1ab1e4155dc49ddb7ce689dfcbe08d5"
+        "UUID": "1d8f61b374434bfeabc776232af679ae",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XIV HEAVENSWARD - CAIT SITH DOLL PLUSHIE",
@@ -4329,7 +4689,8 @@
         ],
         "SKU": "XFFPLZZZ24_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/696730/final-fantasy-xiv-heavensward-cait-sith-doll-plushie",
-        "UUID": "eb8195da4b63468794f547060528fb58"
+        "UUID": "43af35cba2e54ad49dcd9e0f25177bca",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "HEROES AND VILLAINS - Select Tracks from the FINAL FANTASY Series FOURTH",
@@ -4341,7 +4702,8 @@
         ],
         "SKU": "XFFHVZZZ04_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/695004/heroes-and-villains-select-tracks-from-the-final-fantasy-series-fourth",
-        "UUID": "db01f33499b44d859a10f8edaeaa564a"
+        "UUID": "54f078903b7f4e9da8849011a7f65c48",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "HEROES AND VILLAINS - Select Tracks from the FINAL FANTASY Series THIRD",
@@ -4353,7 +4715,8 @@
         ],
         "SKU": "XFFHVZZZ03_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/695000/heroes-and-villains-select-tracks-from-the-final-fantasy-series-third",
-        "UUID": "e1f2964d18ea4c5093ea7779154c4a35"
+        "UUID": "32be04c9ce0b44659808357a4ef7fe73",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "HEROES AND VILLAINS - Select Tracks from the FINAL FANTASY Series SECOND",
@@ -4365,7 +4728,8 @@
         ],
         "SKU": "XFFHVZZZ02_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/694996/heroes-and-villains-select-tracks-from-the-final-fantasy-series-second",
-        "UUID": "599430394d3448bf8a06104daa508d65"
+        "UUID": "3520f658953d4434909502aa2a5d894b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "HEROES AND VILLAINS - Select Tracks from the FINAL FANTASY Series FIRST",
@@ -4377,7 +4741,8 @@
         ],
         "SKU": "XFFHVZZZ01_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/694992/heroes-and-villains-select-tracks-from-the-final-fantasy-series-first",
-        "UUID": "6f4f45b53688404a9565d71349067aa7"
+        "UUID": "bb29ed24cdc14f399c8539c785d16765",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "HEROES AND VILLAINS - Select Tracks from the FINAL FANTASY Series BOX",
@@ -4389,7 +4754,8 @@
         ],
         "SKU": "XFFHVZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/694988/heroes-and-villains-select-tracks-from-the-final-fantasy-series-box",
-        "UUID": "57a04838e51b40c6b1513688d357cb3f"
+        "UUID": "d61a8a427802475e86584fa332a205e0",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE PLAY ARTS KAI ACTION FIGURE TIFA LOCKHART DRESS VER.",
@@ -4401,7 +4767,8 @@
         ],
         "SKU": "XFF07ZZ260_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/694807/final-fantasy-vii-remake-play-arts-kai-action-figure-tifa-lockhart-dress-ver",
-        "UUID": "85e4b1252d2543d8827857e79f0585c7"
+        "UUID": "137f61666dee44d39b7838db7efef816",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139... HANGING POUCH – EMIL",
@@ -4413,7 +4780,8 @@
         ],
         "SKU": "XNIERZZ124_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/694796/nier-replicant-ver122474487139-hanging-pouch-emil",
-        "UUID": "d8d3394b28434159868b6935ef98b5f2"
+        "UUID": "0e4b7f05eb7c4d99aba5b25fe5eae943",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS MOUSE PAD",
@@ -4425,7 +4793,8 @@
         ],
         "SKU": "XKH3HZZZ04_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/687574/kingdom-hearts-mouse-pad",
-        "UUID": "1381067ac0dc4f5d9b33dadf0bb74aa3"
+        "UUID": "80b10d0072214b87a12d2c862a17d215",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "KINGDOM HEARTS SERIES /PLAYING CARDS",
@@ -4437,7 +4806,8 @@
         ],
         "SKU": "XKHPTZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685806/kingdom-hearts-series-playing-cards",
-        "UUID": "90abfd0190994edcbe554914ebf60e88"
+        "UUID": "dc5a3f6eea5248a59770f9a79f8415e6",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY TRADING CARD GAME Anniversary Collection Set 2022 English Version",
@@ -4449,7 +4819,8 @@
         ],
         "SKU": "XFFTCZZ188_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/687388/final-fantasy-trading-card-game-anniversary-collection-set-2022-english-version",
-        "UUID": "7f94049fc26c4d518c5365a3b01bc2df"
+        "UUID": "39553d343de54b2bac5223141dfe777c",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY FLUFFY FLUFFY DIE-CUT CUSHION - MOOGLE",
@@ -4461,7 +4832,8 @@
         ],
         "SKU": "XFF00ZZZ14_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/686565/final-fantasy-fluffy-fluffy-die-cut-cushion-moogle",
-        "UUID": "c1eb685cb23249bd9be3dcc9b53f9622"
+        "UUID": "122d52507476410cae162cbe4f029849",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER RE[IN]CARNATION PLUSH - CARRIER",
@@ -4473,7 +4845,8 @@
         ],
         "SKU": "XNIERZZ119_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685942/nier-reincarnation-plush-carrier",
-        "UUID": "b85f31f3597a43f7bc3dd5e0a3da5133"
+        "UUID": "ae47f99e6b5446b192493a6046deeaf2",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "NIER REPLICANT VER.1.22474487139... GAMING MOUSE PAD",
@@ -4485,7 +4858,8 @@
         ],
         "SKU": "XNIERZZ123_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685931/nier-replicant-ver122474487139-gaming-mouse-pad",
-        "UUID": "ce5b514fb8b54b63a3046909d0fa5a75"
+        "UUID": "9e02a982e58e4604a4c5e0700ea275cb",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY FLUFFY FLUFFY DIE-CUT CUSHION - CHOCOBO",
@@ -4497,7 +4871,8 @@
         ],
         "SKU": "XFF00ZZZ13_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/686021/final-fantasy-fluffy-fluffy-die-cut-cushion-chocobo",
-        "UUID": "b4fbe09b045e432fa0327f5c617b15cc"
+        "UUID": "6f6d3a68428d49bcbc7e6cdfe44dc64b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY XI GAMING MOUSE PAD",
@@ -4509,7 +4884,8 @@
         ],
         "SKU": "XFF11ZZZ14_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685935/final-fantasy-xi-gaming-mouse-pad",
-        "UUID": "83d284cdc85a4b5b984296a90e232bb3"
+        "UUID": "d3001bea30b3491baafd93b7d1b41c45",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY EHON CHOCOBO AND THE FLYING SHIP JIGSAW PUZZLE - 1000 PIECE",
@@ -4521,7 +4897,8 @@
         ],
         "SKU": "XFF00ZZZ12_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/686017/final-fantasy-ehon-chocobo-and-the-flying-ship-jigsaw-puzzle-1000-piece",
-        "UUID": "6cb4bb83acb24edc9bf4ea0613f44a40"
+        "UUID": "a164c14025574effb03701ddc44c8f84",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE GAMING MOUSE PAD - MIDGAR",
@@ -4533,7 +4910,8 @@
         ],
         "SKU": "XFF07ZZ259_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685946/final-fantasy-vii-remake-gaming-mouse-pad-midgar",
-        "UUID": "bf27d958d644406884016b98d92caf51"
+        "UUID": "07cb03d130294409a4e3be27e21cbfd2",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY VII REMAKE GAMING MOUSE PAD",
@@ -4545,7 +4923,8 @@
         ],
         "SKU": "XFF07ZZ258_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685950/final-fantasy-vii-remake-gaming-mouse-pad",
-        "UUID": "a9ea6fbf62a345f6b517e5a890053498"
+        "UUID": "9b4cfe2a18a7459e8700878c6f082d0e",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "DRAGON QUEST GAMING MOUSE PAD - PIXEL MONSTERS",
@@ -4557,7 +4936,8 @@
         ],
         "SKU": "XDQ00ZZZ03_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/686009/dragon-quest-gaming-mouse-pad-pixel-monsters",
-        "UUID": "f241b48c8a5648b3b79064413b49bb8a"
+        "UUID": "c785c19b6aba45cc9c02fff4614b7812",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY III GAMING MOUSE PAD",
@@ -4569,7 +4949,8 @@
         ],
         "SKU": "XFF03ZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685970/final-fantasy-iii-gaming-mouse-pad",
-        "UUID": "b929b9e8f51c4893bc740433a8839e66"
+        "UUID": "836b434d1e1e45129e92de955c181f4b",
+        "Game or Merchandise": "Merchandise"
     },
     {
         "title": "FINAL FANTASY II GAMING MOUSE PAD",
@@ -4581,6 +4962,7 @@
         ],
         "SKU": "XFF02ZZZ00_UK",
         "Link": "https://store.eu.square-enix-games.com/en_GB/product/685986/final-fantasy-ii-gaming-mouse-pad",
-        "UUID": "348f1b1e01f24024aa6fccc65b040fe3"
+        "UUID": "2a4d6df0f63c4177a9b56fdc78e912a0",
+        "Game or Merchandise": "Merchandise"
     }
 ]

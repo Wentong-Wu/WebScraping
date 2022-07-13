@@ -162,12 +162,22 @@ class Scraper:
         return self.product_single_dict
 
     def get_all_data(self):
-        self.all_links = web.get_all_product_links()
+        #self.all_links = self.get_all_product_links()
+        self.game_product = []
+        self.game_product = self.get_game_product(self.game_product)
+        self.merch_product = []
+        self.merch_product = self.get_merch_product(self.merch_product)
         self.product_dict = []
+        
         #loop get_one_data with all the data
         #links = ["https://store.eu.square-enix-games.com/en_GB/product/725931/chrono-cross-the-radical-dreamers-edition-steam","https://store.eu.square-enix-games.com/en_GB/product/564495/final-fantasy-vii-remake-1st-class-edition-ps4"]
-        for link in self.all_links:
+        for link in self.game_product:
             self.product_single_dict = self.get_one_data(link)
+            self.product_single_dict["Game or Merchandise"] = "Game"
+            self.product_dict.append(self.product_single_dict)
+        for link in self.merch_product:
+            self.product_single_dict = self.get_one_data(link)
+            self.product_single_dict["Game or Merchandise"] = "Merchandise"
             self.product_dict.append(self.product_single_dict)
         base = Path('raw_data')
         base.mkdir(exist_ok=True)
