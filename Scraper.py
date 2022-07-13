@@ -29,6 +29,10 @@ class Scraper:
         self.URL = "https://store.eu.square-enix-games.com/en_GB/"
         self.driver.get(self.URL)
         self.delay = 10
+        
+        pass 
+
+    def accept_cookies(self):
         try:
             WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
             print("Frame Ready!")
@@ -39,34 +43,19 @@ class Scraper:
             accept_cookies_button.click()
         except TimeoutException:
             print("Loading took too much time!")
-        pass 
-
-    # def load_and_accept_cookies(self):
-    #     try:
-    #         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
-    #         print("Frame Ready!")
-    #         #driver.switch_to.frame('onetrust-banner-sdk')
-    #         accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
-    #         print("Accept Cookies Button Ready!")
-    #         time.sleep(3)
-    #         accept_cookies_button.click()
-    #     except TimeoutException:
-    #         print("Loading took too much time!")
-    #     return self.driver
     
-    def get_merch_product(self, list_of_links):
-
+    def get_product(self,list_of_links,type_of_product):
         a = ActionChains(self.driver)
-        m = self.driver.find_element(By.XPATH,'//li[@id="merchandise"]')
+        m = self.driver.find_element(By.XPATH,'//li[@id="'+type_of_product+'"]')
         a.move_to_element(m).perform()
-        WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-merchandise"]'))).click()
+        WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-'+type_of_product+'"]'))).click()
         time.sleep(1)
         #Scroll all the way down to get all the products
         length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
         page_end = False
         while(page_end==False):
             last_length_page = length_of_page
-            time.sleep(3)
+            time.sleep(1)
             length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
             if last_length_page==length_of_page:
                 page_end=True
@@ -75,34 +64,6 @@ class Scraper:
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
             list_of_links.append(elem.get_attribute('href'))
-        return list_of_links
-    
-    def get_game_product(self, list_of_links):
-        a = ActionChains(self.driver)
-        m = self.driver.find_element(By.XPATH,'//li[@id="games"]')
-        a.move_to_element(m).perform()
-        WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-games"]'))).click()
-        time.sleep(1)
-        #Scroll all the way down to get all the products
-        length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
-        page_end = False
-        while(page_end==False):
-            last_length_page = length_of_page
-            time.sleep(3)
-            length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
-            if last_length_page==length_of_page:
-                page_end=True
-
-        #Gets all the link to the products
-        elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
-        for elem in elements:
-            list_of_links.append(elem.get_attribute('href'))
-        return list_of_links
-    
-    def get_all_product_links(self, list_of_links=[]):
-        self.get_game_product(list_of_links)
-        self.get_merch_product(list_of_links)
-        self.all_links = list_of_links
         return list_of_links
 
     def get_age_restriction(self):
@@ -129,29 +90,21 @@ class Scraper:
             self.driver.find_element(By.XPATH, "//button[@class='btn dropdown-toggle']").click()
             self.driver.find_element(By.XPATH, "//a[@class='dropdown-item']").click()
             one_link = self.driver.current_url
-        #get data from the page
         self.product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
         # try:
-        #     product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
+        #     self.product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
         # except:
-        #product_price
         self.product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
-        #product_status
         self.product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
-        #product_image
         self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
-        
-        #product-SKU
         self.product_SKU = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
-        
         #Save images into images folder
         base = Path('images')
         base.mkdir(exist_ok=True)
         filename = os.path.join(base, ""+self.product_SKU+".jpg")
         for imglink in self.product_image:
             urllib.request.urlretrieve(imglink,filename)
-
         self.product_single_dict["title"] = self.product_title
         self.product_single_dict["price"] = self.product_price.replace("\n","")
         self.product_single_dict["status"] = self.product_status
@@ -163,10 +116,11 @@ class Scraper:
 
     def get_all_data(self):
         #self.all_links = self.get_all_product_links()
+        self.accept_cookies()
         self.game_product = []
-        self.game_product = self.get_game_product(self.game_product)
+        self.game_product = self.get_product(self.game_product,"games")
         self.merch_product = []
-        self.merch_product = self.get_merch_product(self.merch_product)
+        self.merch_product = self.get_product(self.merch_product,"merchandise")
         self.product_dict = []
         
         #loop get_one_data with all the data
