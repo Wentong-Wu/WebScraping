@@ -24,15 +24,27 @@ import time
 class Scraper:
 
     def __init__(self) -> webdriver.Chrome():
+        """
+        This is the init function which runs at the very beginning when the class is called.
+        All this does is to open up the webdriver - in my case is Chrome.
+        Then it will open up to the URL passed in self.driver.get("URL") - In my case its square enix store
+        self.delay is used so that the website waits for the element to appear before executing - 10 second for the driver to find the element.
+        """
         self.age_restriction_pass = False
         self.driver = webdriver.Chrome() 
         self.URL = "https://store.eu.square-enix-games.com/en_GB/"
         self.driver.get(self.URL)
         self.delay = 10
-        
         pass 
 
     def accept_cookies(self):
+        """
+        This is the accept_cookies method which clicks on the accept button on the cookies.
+        try method so that if cookies doesn't exist within the 10 seconds, it will not break the code but instead will execute the except method.
+        WebDriverWait - checks to see if a element exists in the html, it passes in a self.delay of 10 second meaning that if it cannot find the element within the 10 seconds, an error will appear.
+        Find the accept cookies button element and click it.
+        The TimeoutException is when the code couldn't find the element in the webdriverwait, it will replace the error with the block of code in except TimeoutException.
+        """
         try:
             WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
             print("Frame Ready!")
@@ -45,6 +57,14 @@ class Scraper:
             print("Loading took too much time!")
     
     def get_product(self,list_of_links,type_of_product):
+        """
+        This get_product method requires 2 arguments, a list of link and the type of product (such as games/merchandise).
+        The type of product argument is used to find the page where all the product exists.
+        A list of link argument so that it can append the product into the list and return it to the user.
+        First find the where all the type of prodcut is stored and get into that page - In my case there is an nav bar with all the type product can be accessed.
+        The while loop is so that it loads all the products in the website since the website loads more product each time you scroll all the way down.
+        Finally, append all the product link to the list of link as they are all stored in a specific class. Then return the list of links.
+        """
         a = ActionChains(self.driver)
         m = self.driver.find_element(By.XPATH,'//li[@id="'+type_of_product+'"]')
         a.move_to_element(m).perform()
@@ -67,6 +87,10 @@ class Scraper:
         return list_of_links
 
     def get_age_restriction(self):
+        """
+        This method will be called if the content is blocked by an age restriction.
+        This would set the age of the user to 18+ to ensure all the content can be accessed.
+        """
         self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-day']/option[text()='1']").click()
         self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
         self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
@@ -74,6 +98,14 @@ class Scraper:
         pass
 
     def get_one_data(self, one_link):
+        """
+        This method extracts the data and information required. It requires a argument (a link) to load the locatino of the product.
+        First create an empty dictionary to store all the data and information aquried.
+        Attempts to run age restriction method to check if the content has an age restriction.
+        It will run it until it successfully found a content with age restriction and after that, the web site should save the data and allow the user to access all content which means the age restrcion method will not be required to run, this is to save speed and process of scraping the data.
+        After passing the age restriction, it will collect all the useful data and information and store it into the empty dictionary created.
+        Finally, return the dictionary to the user.
+        """
         #get pass age restriction if there is any
         self.driver.get(one_link)
         self.product_single_dict={}
