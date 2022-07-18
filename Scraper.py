@@ -124,10 +124,10 @@ class Scraper:
             self.driver.find_element(By.XPATH, "//a[@class='dropdown-item']").click()
             one_link = self.driver.current_url
         self.product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
-        # try:
-        #     self.product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-strike-through']"))).get_attribute("textContent"))
-        # except:
-        self.product_price = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@data-internal-id='product-price']"))).get_attribute("textContent"))
+        self.product_price_element = WebDriverWait(self.driver, self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@class='prices']")))
+        self.product_price = self.product_price_element[1].text
+        self.product_price = self.product_price.split(" ")
+        print(self.product_price[0])
         self.product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
         self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
@@ -139,7 +139,7 @@ class Scraper:
         for imglink in self.product_image:
             urllib.request.urlretrieve(imglink,filename)
         self.product_single_dict["title"] = self.product_title
-        self.product_single_dict["price"] = self.product_price.replace("\n","")
+        self.product_single_dict["price"] = self.product_price[0]
         self.product_single_dict["status"] = self.product_status
         self.product_single_dict["image"] = self.product_image
         self.product_single_dict["SKU"] = self.product_SKU
@@ -157,7 +157,7 @@ class Scraper:
         All the data should then be stored inside the product_dict array.
         Finally, use json.dump to store all the data into a json file.
         """
-        #self.all_links = self.get_all_product_links()
+        self.all_links = self.get_all_product_links()
         self.accept_cookies()
         self.game_product = []
         self.game_product = self.get_product(self.game_product,"games")
