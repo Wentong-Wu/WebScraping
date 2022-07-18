@@ -104,6 +104,7 @@ class Scraper:
         Attempts to run age restriction method to check if the content has an age restriction.
         It will run it until it successfully found a content with age restriction and after that, the web site should save the data and allow the user to access all content which means the age restrcion method will not be required to run, this is to save speed and process of scraping the data.
         After passing the age restriction, it will collect all the useful data and information and store it into the empty dictionary created.
+        Download all the product_image and store it into an image folder using urllib.request.urlretrieve.
         Finally, return the dictionary to the user.
         """
         #get pass age restriction if there is any
@@ -147,6 +148,15 @@ class Scraper:
         return self.product_single_dict
 
     def get_all_data(self):
+        """
+        This method is used to collect all the data and save the data into folder (raw data into json). This uses all the method created.
+        First calls the accept_cookies method to by pass the cookies to access all the html content.
+        Then collect all the game product links and game merch links using the get_product method.
+        Create an empty array named product_dict to store all the dicionary as a list.
+        Loop through all the link collected and call get_one_data passing in the link as arugment and then append all the data into the product_dict array.
+        All the data should then be stored inside the product_dict array.
+        Finally, use json.dump to store all the data into a json file.
+        """
         #self.all_links = self.get_all_product_links()
         self.accept_cookies()
         self.game_product = []
@@ -169,11 +179,12 @@ class Scraper:
         base.mkdir(exist_ok=True)
         with open(base/'data.json','w',encoding='utf-8') as f:
             json.dump(self.product_dict,f,ensure_ascii=False,indent=4)
-        
-        
-
 
 if __name__ == "__main__":
+    """
+    To ensure that this code only runs if the user is on this script.
+    Create a scraper class and runs get_all_data method from the scraper class.
+    """
     web = Scraper()
     web.get_all_data()
     pass
