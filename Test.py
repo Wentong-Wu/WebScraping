@@ -4,7 +4,8 @@ from Scraper import Scraper
 class Test_Scraper(unittest.TestCase):
 
     def test_accept_cookies(self):
-        
+        assert (1+1) == 3
+        #self.assertEqual(sum([1,1]), 3, "Should be 6")
         pass
 
     def test_get_product(self):
