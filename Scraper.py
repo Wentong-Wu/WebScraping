@@ -79,7 +79,6 @@ class Scraper:
             length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
             if last_length_page==length_of_page:
                 page_end=True
-
         #Gets all the link to the products
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
