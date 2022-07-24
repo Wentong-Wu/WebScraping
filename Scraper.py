@@ -47,29 +47,14 @@ class Scraper:
         """
         try:
             WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
-            print("Frame Ready!")
             #driver.switch_to.frame('onetrust-banner-sdk')
             accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
-            print("Accept Cookies Button Ready!")
             time.sleep(1)
             accept_cookies_button.click()
         except TimeoutException:
             print("Loading took too much time!")
     
-    def get_product(self,list_of_links,type_of_product):
-        """
-        This get_product method requires 2 arguments, a list of link and the type of product (such as games/merchandise).
-        The type of product argument is used to find the page where all the product exists.
-        A list of link argument so that it can append the product into the list and return it to the user.
-        First find the where all the type of prodcut is stored and get into that page - In my case there is an nav bar with all the type product can be accessed.
-        The while loop is so that it loads all the products in the website since the website loads more product each time you scroll all the way down.
-        Finally, append all the product link to the list of link as they are all stored in a specific class. Then return the list of links.
-        """
-        a = ActionChains(self.driver)
-        m = self.driver.find_element(By.XPATH,'//li[@id="'+type_of_product+'"]')
-        a.move_to_element(m).perform()
-        WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-'+type_of_product+'"]'))).click()
-        time.sleep(1)
+    def scroll_to_end(self):
         #Scroll all the way down to get all the products
         length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
         page_end = False
@@ -79,6 +64,30 @@ class Scraper:
             length_of_page = self.driver.execute_script("window.scrollBy(0,document.body.scrollHeight);var length_of_page=document.body.scrollHeight;return length_of_page;")
             if last_length_page==length_of_page:
                 page_end=True
+    
+    def go_to_type_product_page(self,type_of_product):
+        a = ActionChains(self.driver)
+        m = self.driver.find_element(By.XPATH,'//li[@id="'+type_of_product+'"]')
+        a.move_to_element(m).perform()
+        WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-'+type_of_product+'"]'))).click()
+        time.sleep(1)
+
+    def get_product(self,list_of_links = []):
+        """
+        This get_product method requires 2 arguments, a list of link and the type of product (such as games/merchandise).
+        The type of product argument is used to find the page where all the product exists.
+        A list of link argument so that it can append the product into the list and return it to the user.
+        First find the where all the type of prodcut is stored and get into that page - In my case there is an nav bar with all the type product can be accessed.
+        The while loop is so that it loads all the products in the website since the website loads more product each time you scroll all the way down.
+        Finally, append all the product link to the list of link as they are all stored in a specific class. Then return the list of links.
+        """
+        # self.go_to_type_product_page(type_of_product)
+        # a = ActionChains(self.driver)
+        # m = self.driver.find_element(By.XPATH,'//li[@id="'+type_of_product+'"]')
+        # a.move_to_element(m).perform()
+        # WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-'+type_of_product+'"]'))).click()
+        
+        self.scroll_to_end()
         #Gets all the link to the products
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
@@ -96,6 +105,14 @@ class Scraper:
         self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
         pass
 
+    def download_image(self,prod_sku, prod_image):
+        #Save images into images folder
+        base = Path('images')
+        base.mkdir(exist_ok=True)
+        filename = os.path.join(base, ""+prod_sku+".jpg")
+        for imglink in prod_image:
+            urllib.request.urlretrieve(imglink,filename)
+        
     def get_one_data(self, one_link):
         """
         This method extracts the data and information required. It requires a argument (a link) to load the locatino of the product.
@@ -126,25 +143,37 @@ class Scraper:
         self.product_price_element = WebDriverWait(self.driver, self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@class='prices']")))
         self.product_price = self.product_price_element[1].text
         self.product_price = self.product_price.split(" ")
-        print(self.product_price[0])
         self.product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
         self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
         self.product_SKU = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
-        #Save images into images folder
-        base = Path('images')
-        base.mkdir(exist_ok=True)
-        filename = os.path.join(base, ""+self.product_SKU+".jpg")
-        for imglink in self.product_image:
-            urllib.request.urlretrieve(imglink,filename)
-        self.product_single_dict["title"] = self.product_title
-        self.product_single_dict["price"] = self.product_price[0]
-        self.product_single_dict["status"] = self.product_status
-        self.product_single_dict["image"] = self.product_image
+        self.product_type = (WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
+        print(self.product_type)
+        # //*[@id="breadcrumb"]/ol/li[2] - Check if the item is a game or merch
+        # //*[@id="breadcrumb"]/ol/li[2]
+        self.download_image(self.product_SKU,self.product_image)
+        self.product_single_dict["Title"] = self.product_title
+        self.product_single_dict["Price"] = self.product_price[0]
+        self.product_single_dict["Status"] = self.product_status
+        self.product_single_dict["Image"] = self.product_image
         self.product_single_dict["SKU"] = self.product_SKU
         self.product_single_dict["Link"] = one_link
         self.product_single_dict["UUID"] = uuid.uuid4().hex
+        self.product_single_dict["Product_Type"] = self.product_type
         return self.product_single_dict
+
+    def get_all_type(self):
+        self.go_to_type_product_page("games")
+        self.product = self.get_product()
+        self.go_to_type_product_page("merchandise")
+        self.product = self.product.append(self.get_product())
+        return self.product
+
+    def download_rawdata(self,product_dict):
+        base = Path('raw_data')
+        base.mkdir(exist_ok=True)
+        with open(base/'data.json','w',encoding='utf-8') as f:
+            json.dump(product_dict,f,ensure_ascii=False,indent=4)
 
     def get_all_data(self):
         """
@@ -156,28 +185,16 @@ class Scraper:
         All the data should then be stored inside the product_dict array.
         Finally, use json.dump to store all the data into a json file.
         """
-        self.all_links = self.get_all_product_links()
-        self.accept_cookies()
-        self.game_product = []
-        self.game_product = self.get_product(self.game_product,"games")
-        self.merch_product = []
-        self.merch_product = self.get_product(self.merch_product,"merchandise")
-        self.product_dict = []
         
+        self.accept_cookies()
+        self.product = self.get_all_type()
+        self.product_dict = []
         #loop get_one_data with all the data
         #links = ["https://store.eu.square-enix-games.com/en_GB/product/725931/chrono-cross-the-radical-dreamers-edition-steam","https://store.eu.square-enix-games.com/en_GB/product/564495/final-fantasy-vii-remake-1st-class-edition-ps4"]
-        for link in self.game_product:
+        for link in self.product:
             self.product_single_dict = self.get_one_data(link)
-            self.product_single_dict["Game or Merchandise"] = "Game"
             self.product_dict.append(self.product_single_dict)
-        for link in self.merch_product:
-            self.product_single_dict = self.get_one_data(link)
-            self.product_single_dict["Game or Merchandise"] = "Merchandise"
-            self.product_dict.append(self.product_single_dict)
-        base = Path('raw_data')
-        base.mkdir(exist_ok=True)
-        with open(base/'data.json','w',encoding='utf-8') as f:
-            json.dump(self.product_dict,f,ensure_ascii=False,indent=4)
+        self.download_rawdata(self.product_dict)
 
 if __name__ == "__main__":
     """
