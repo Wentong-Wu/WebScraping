@@ -6,6 +6,7 @@ from operator import truediv
 import os
 from re import M
 from turtle import delay
+from typing import Dict
 from unicodedata import name
 import webbrowser
 import uuid
@@ -75,7 +76,6 @@ class Scraper:
         """
         Get all the product links in a the page.
         """
-        self.scroll_to_end()
         #Gets all the link to the products
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
@@ -110,7 +110,7 @@ class Scraper:
         """
         #get pass age restriction if there is any
         self.driver.get(one_link)
-        self.product_single_dict={}
+        
         if(self.age_restriction_pass == False):
             try:
                 self.get_age_restriction()
@@ -124,26 +124,45 @@ class Scraper:
             self.driver.find_element(By.XPATH, "//button[@class='btn dropdown-toggle']").click()
             self.driver.find_element(By.XPATH, "//a[@class='dropdown-item']").click()
             one_link = self.driver.current_url
-        self.product_title = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
+        self.product_single_list=[]
+        self.product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
         self.product_price_element = WebDriverWait(self.driver, self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@class='prices']")))
         self.product_price = self.product_price_element[1].text
         self.product_price = self.product_price.split(" ")
-        self.product_status = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
+        self.product_single_list.append(self.product_price[0])
+        self.product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
         self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
-        self.product_SKU = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
-        self.product_type = (WebDriverWait(self.driver,self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
+        self.product_single_list.append(self.product_image)
+        self.product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
+        self.product_single_list.append(one_link)
+        self.product_single_list.append(uuid.uuid4().hex)
+        self.product_single_list.append(WebDriverWait(self.driver,self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
+        return self.store_one_data(self.product_single_list)
+        #self.download_image(self.product_SKU,self.product_image)
 
-        self.download_image(self.product_SKU,self.product_image)
-        self.product_single_dict["Title"] = self.product_title
-        self.product_single_dict["Price"] = self.product_price[0]
-        self.product_single_dict["Status"] = self.product_status
-        self.product_single_dict["Image"] = self.product_image
-        self.product_single_dict["SKU"] = self.product_SKU
-        self.product_single_dict["Link"] = one_link
-        self.product_single_dict["UUID"] = uuid.uuid4().hex
-        self.product_single_dict["Product_Type"] = self.product_type
+        # self.product_single_dict["Title"] = self.product_title
+        # self.product_single_dict["Price"] = self.product_price[0]
+        # self.product_single_dict["Status"] = self.product_status
+        # self.product_single_dict["Image"] = self.product_image
+        # self.product_single_dict["SKU"] = self.product_SKU
+        # self.product_single_dict["Link"] = one_link
+        # self.product_single_dict["UUID"] = uuid.uuid4().hex
+        # self.product_single_dict["Product_Type"] = self.product_type
+        # return self.product_single_dict
+
+    def store_one_data(self,single_product_list) -> dict:
+        self.product_single_dict = {}
+        self.product_single_dict["Title"] = single_product_list[0]
+        self.product_single_dict["Price"] = single_product_list[1]
+        self.product_single_dict["Status"] = single_product_list[2]
+        self.product_single_dict["Image"] = single_product_list[3]
+        self.product_single_dict["SKU"] = single_product_list[4]
+        self.product_single_dict["Link"] = single_product_list[5]
+        self.product_single_dict["UUID"] = single_product_list[6]
+        self.product_single_dict["Product_Type"] = single_product_list[7]
         return self.product_single_dict
+        
 
     def get_all_product_by_catogary(self, list_catogary):
         """
@@ -152,6 +171,7 @@ class Scraper:
         self.product = []
         for catogary in list_catogary:
             self.go_to_type_product_page(catogary)
+            self.scroll_to_end()
             self.product = self.get_product()
         return self.product
 
@@ -164,12 +184,12 @@ class Scraper:
         with open(base/'data.json','w',encoding='utf-8') as f:
             json.dump(product_dict,f,ensure_ascii=False,indent=4)
 
-    def get_all_data(self):
+    def get_all_data(self,catogary):
         """
         Get all the data and download it into a folder - Image folder and raw_data folder
         """
         self.accept_cookies()
-        self.list_of_catogary = ["games", "merchandise"]
+        self.list_of_catogary = catogary
         self.product_dict = []
         for link in self.get_all_product_by_catogary(self.list_of_catogary):
             self.product_single_dict = self.get_one_data(link)
@@ -182,5 +202,5 @@ if __name__ == "__main__":
     Create a scraper class and runs get_all_data method from the scraper class.
     """
     web = Scraper()
-    web.get_all_data()
+    web.get_all_data(["games","merchandise"])
     pass
