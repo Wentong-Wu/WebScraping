@@ -145,15 +145,14 @@ class Scraper:
         self.product_single_dict["Product_Type"] = self.product_type
         return self.product_single_dict
 
-    def get_all_type(self):
+    def get_all_product_by_catogary(self, list_catogary):
         """
         Get all the product links on the website.
         """
-        self.go_to_type_product_page("games")
         self.product = []
-        self.product = self.get_product()
-        self.go_to_type_product_page("merchandise")
-        self.product = self.get_product()
+        for catogary in list_catogary:
+            self.go_to_type_product_page(catogary)
+            self.product = self.get_product()
         return self.product
 
     def download_rawdata(self,product_dict):
@@ -170,8 +169,9 @@ class Scraper:
         Get all the data and download it into a folder - Image folder and raw_data folder
         """
         self.accept_cookies()
+        self.list_of_catogary = ["games", "merchandise"]
         self.product_dict = []
-        for link in self.get_all_type():
+        for link in self.get_all_product_by_catogary(self.list_of_catogary):
             self.product_single_dict = self.get_one_data(link)
             self.product_dict.append(self.product_single_dict)
         self.download_rawdata(self.product_dict)
