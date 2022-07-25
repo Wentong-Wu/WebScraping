@@ -147,10 +147,8 @@ class Scraper:
         self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
         self.product_SKU = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
-        self.product_type = (WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
-        print(self.product_type)
-        # //*[@id="breadcrumb"]/ol/li[2] - Check if the item is a game or merch
-        # //*[@id="breadcrumb"]/ol/li[2]
+        self.product_type = (WebDriverWait(self.driver,self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
+
         self.download_image(self.product_SKU,self.product_image)
         self.product_single_dict["Title"] = self.product_title
         self.product_single_dict["Price"] = self.product_price[0]
@@ -164,9 +162,10 @@ class Scraper:
 
     def get_all_type(self):
         self.go_to_type_product_page("games")
+        self.product = []
         self.product = self.get_product()
         self.go_to_type_product_page("merchandise")
-        self.product = self.product.append(self.get_product())
+        self.product = self.get_product()
         return self.product
 
     def download_rawdata(self,product_dict):
@@ -187,11 +186,13 @@ class Scraper:
         """
         
         self.accept_cookies()
-        self.product = self.get_all_type()
+
+        #self.product = self.get_all_type()
+        
         self.product_dict = []
         #loop get_one_data with all the data
         #links = ["https://store.eu.square-enix-games.com/en_GB/product/725931/chrono-cross-the-radical-dreamers-edition-steam","https://store.eu.square-enix-games.com/en_GB/product/564495/final-fantasy-vii-remake-1st-class-edition-ps4"]
-        for link in self.product:
+        for link in self.get_all_type():
             self.product_single_dict = self.get_one_data(link)
             self.product_dict.append(self.product_single_dict)
         self.download_rawdata(self.product_dict)
