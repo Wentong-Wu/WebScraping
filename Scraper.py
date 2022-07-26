@@ -126,14 +126,14 @@ class Scraper:
             one_link = self.driver.current_url
         product_single_list=[]
         product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
-        self.product_price_element = WebDriverWait(self.driver, self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@class='prices']")))
-        self.product_price = self.product_price_element[1].text
-        self.product_price = self.product_price.split(" ")
-        product_single_list.append(self.product_price[0])
+        product_price_element = WebDriverWait(self.driver, self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@class='prices']")))
+        product_price = product_price_element[1].text
+        product_price = product_price.split(" ")
+        product_single_list.append(product_price[0])
         product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
-        self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
-        self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
-        product_single_list.append(self.product_image)
+        product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
+        product_image = product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
+        product_single_list.append(product_image)
         product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
         product_single_list.append(one_link)
         product_single_list.append(uuid.uuid4().hex)
@@ -145,27 +145,27 @@ class Scraper:
         """
         Store all the data as a dictionary and return it.
         """
-        self.product_single_dict = {}
-        self.product_single_dict["Title"] = single_product_list[0]
-        self.product_single_dict["Price"] = single_product_list[1]
-        self.product_single_dict["Status"] = single_product_list[2]
-        self.product_single_dict["Image"] = single_product_list[3]
-        self.product_single_dict["SKU"] = single_product_list[4]
-        self.product_single_dict["Link"] = single_product_list[5]
-        self.product_single_dict["UUID"] = single_product_list[6]
-        self.product_single_dict["Product_Type"] = single_product_list[7]
-        return self.product_single_dict
+        product_single_dict = {}
+        product_single_dict["Title"] = single_product_list[0]
+        product_single_dict["Price"] = single_product_list[1]
+        product_single_dict["Status"] = single_product_list[2]
+        product_single_dict["Image"] = single_product_list[3]
+        product_single_dict["SKU"] = single_product_list[4]
+        product_single_dict["Link"] = single_product_list[5]
+        product_single_dict["UUID"] = single_product_list[6]
+        product_single_dict["Product_Type"] = single_product_list[7]
+        return product_single_dict
 
     def get_all_product_by_catogary(self, list_catogary):
         """
         Get all the product links on the website.
         """
-        self.product = []
+        product = []
         for catogary in list_catogary:
             self.go_to_type_product_page(catogary)
             self.scroll_to_end()
-            self.product = self.get_all_product_links()
-        return self.product
+            product = self.get_all_product_links()
+        return product
 
     def download_rawdata(self, product_dict):
         """
@@ -183,8 +183,8 @@ class Scraper:
         self.accept_cookies()
         product_dict = []
         for link in self.get_all_product_by_catogary(catogary):
-            self.product_single_dict = self.get_one_data(link)
-            product_dict.append(self.product_single_dict)
+            product_single_dict = self.get_one_data(link)
+            product_dict.append(product_single_dict)
         self.download_rawdata(product_dict)
 
 if __name__ == "__main__":

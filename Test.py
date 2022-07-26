@@ -9,13 +9,13 @@ class Test_Scraper(unittest.TestCase):
         return super().setUp()
 
     def test_store_one_data(self):
-        self.product_list=["Title","Price","Status","Image","SKU","Link","UUID","Product_Type"]
-        self.expect_value = 8
-        self.product_dict = self.product.store_one_data(self.product_list)
-        self.actual_value = len(self.product_dict)
-        self.assertEqual(self.actual_value,self.expect_value)
-        self.assertNotEqual(self.actual_value,7)
-        self.assertIsInstance(self.product_dict,dict)
+        product_list=["Title","Price","Status","Image","SKU","Link","UUID","Product_Type"]
+        expect_value = 8
+        product_dict = self.product.store_one_data(product_list)
+        actual_value = len(product_dict)
+        self.assertEqual(actual_value,expect_value)
+        self.assertNotEqual(actual_value,7)
+        self.assertIsInstance(product_dict,dict)
 
     def test_get_all_product_links(self):
         self.product.driver.get("https://store.eu.square-enix-games.com/en_GB")
