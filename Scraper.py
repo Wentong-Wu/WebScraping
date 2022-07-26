@@ -76,6 +76,8 @@ class Scraper:
         """
         Get all the product links in a the page.
         """
+        # if list_of_links is None:
+        #     list_of_links = []
         #Gets all the link to the products
         elements = WebDriverWait(self.driver,self.delay).until(EC.presence_of_all_elements_located((By.XPATH,'//a[@class="product-link-box"]')))
         for elem in elements:
@@ -92,7 +94,7 @@ class Scraper:
         self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
         self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
 
-    def download_image(self,prod_sku, prod_image):
+    def download_image(self, prod_sku, prod_image):
         """
         Download image into a folder
         """
@@ -122,22 +124,22 @@ class Scraper:
             self.driver.find_element(By.XPATH, "//button[@class='btn dropdown-toggle']").click()
             self.driver.find_element(By.XPATH, "//a[@class='dropdown-item']").click()
             one_link = self.driver.current_url
-        self.product_single_list=[]
-        self.product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
+        product_single_list=[]
+        product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.CLASS_NAME, "product-title"))).get_attribute("textContent"))
         self.product_price_element = WebDriverWait(self.driver, self.delay).until(EC.presence_of_all_elements_located((By.XPATH, "//*[@class='prices']")))
         self.product_price = self.product_price_element[1].text
         self.product_price = self.product_price.split(" ")
-        self.product_single_list.append(self.product_price[0])
-        self.product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
+        product_single_list.append(self.product_price[0])
+        product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='buy_button']"))).text)
         self.product_image = (WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='boxshot lazyloaded']"))).get_attribute("srcset"))
         self.product_image = self.product_image.replace(" ","").replace("1x","").replace("2x","").split(',')
-        self.product_single_list.append(self.product_image)
-        self.product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
-        self.product_single_list.append(one_link)
-        self.product_single_list.append(uuid.uuid4().hex)
-        self.product_single_list.append(WebDriverWait(self.driver,self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
-        self.download_image(self.product_single_list[4],self.product_single_list[3])
-        return self.store_one_data(self.product_single_list)
+        product_single_list.append(self.product_image)
+        product_single_list.append(WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@class='product-info-details-table table-responsive']/table/tbody/tr[td[contains(.,'SKU')]]/td[2]"))).text)
+        product_single_list.append(one_link)
+        product_single_list.append(uuid.uuid4().hex)
+        product_single_list.append(WebDriverWait(self.driver,self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
+        self.download_image(product_single_list[4],product_single_list[3])
+        return self.store_one_data(product_single_list)
 
     def store_one_data(self,single_product_list) -> dict:
         """
@@ -165,7 +167,7 @@ class Scraper:
             self.product = self.get_all_product_links()
         return self.product
 
-    def download_rawdata(self,product_dict):
+    def download_rawdata(self, product_dict):
         """
         Download the raw data (Dictionary) file as json.
         """
