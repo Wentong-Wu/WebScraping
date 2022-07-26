@@ -91,7 +91,6 @@ class Scraper:
         self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-month']/option[text()='January']").click()   
         self.driver.find_element(By.XPATH, "//select[@data-internal-id='birthday-year']/option[text()='2004']").click()
         self.driver.find_element(By.XPATH, "//button[@data-internal-id='save-birthday']").click()
-        pass
 
     def download_image(self,prod_sku, prod_image):
         """
@@ -141,6 +140,9 @@ class Scraper:
         return self.store_one_data(self.product_single_list)
 
     def store_one_data(self,single_product_list) -> dict:
+        """
+        Store all the data as a dictionary and return it.
+        """
         self.product_single_dict = {}
         self.product_single_dict["Title"] = single_product_list[0]
         self.product_single_dict["Price"] = single_product_list[1]
@@ -150,7 +152,7 @@ class Scraper:
         self.product_single_dict["Link"] = single_product_list[5]
         self.product_single_dict["UUID"] = single_product_list[6]
         self.product_single_dict["Product_Type"] = single_product_list[7]
-        return self.product_single_dict       
+        return self.product_single_dict
 
     def get_all_product_by_catogary(self, list_catogary):
         """
@@ -177,11 +179,11 @@ class Scraper:
         Get all the data and download it into a folder - Image folder and raw_data folder
         """
         self.accept_cookies()
-        self.product_dict = []
+        product_dict = []
         for link in self.get_all_product_by_catogary(catogary):
             self.product_single_dict = self.get_one_data(link)
-            self.product_dict.append(self.product_single_dict)
-        self.download_rawdata(self.product_dict)
+            product_dict.append(self.product_single_dict)
+        self.download_rawdata(product_dict)
 
 if __name__ == "__main__":
     """
