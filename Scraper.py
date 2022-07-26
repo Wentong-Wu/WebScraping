@@ -72,7 +72,7 @@ class Scraper:
         WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//li[@id="all-'+type_of_product+'"]'))).click()
         time.sleep(1)
 
-    def get_product(self,list_of_links = []) -> list:
+    def get_all_product_links(self,list_of_links = []) -> list:
         """
         Get all the product links in a the page.
         """
@@ -109,8 +109,7 @@ class Scraper:
         Get the data from the web and store it into a dictionary then returns it.
         """
         #get pass age restriction if there is any
-        self.driver.get(one_link)
-        
+        self.driver.get(one_link)  
         if(self.age_restriction_pass == False):
             try:
                 self.get_age_restriction()
@@ -161,7 +160,7 @@ class Scraper:
         for catogary in list_catogary:
             self.go_to_type_product_page(catogary)
             self.scroll_to_end()
-            self.product = self.get_product()
+            self.product = self.get_all_product_links()
         return self.product
 
     def download_rawdata(self,product_dict):
@@ -178,9 +177,8 @@ class Scraper:
         Get all the data and download it into a folder - Image folder and raw_data folder
         """
         self.accept_cookies()
-        self.list_of_catogary = catogary
         self.product_dict = []
-        for link in self.get_all_product_by_catogary(self.list_of_catogary):
+        for link in self.get_all_product_by_catogary(catogary):
             self.product_single_dict = self.get_one_data(link)
             self.product_dict.append(self.product_single_dict)
         self.download_rawdata(self.product_dict)
