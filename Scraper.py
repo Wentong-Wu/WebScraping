@@ -138,18 +138,8 @@ class Scraper:
         self.product_single_list.append(one_link)
         self.product_single_list.append(uuid.uuid4().hex)
         self.product_single_list.append(WebDriverWait(self.driver,self.delay).until(EC.presence_of_element_located((By.XPATH, "//*[@id='breadcrumb']/ol/li[2]"))).get_attribute("textContent"))
+        self.download_image(self.product_single_list[4],self.product_single_list[3])
         return self.store_one_data(self.product_single_list)
-        #self.download_image(self.product_SKU,self.product_image)
-
-        # self.product_single_dict["Title"] = self.product_title
-        # self.product_single_dict["Price"] = self.product_price[0]
-        # self.product_single_dict["Status"] = self.product_status
-        # self.product_single_dict["Image"] = self.product_image
-        # self.product_single_dict["SKU"] = self.product_SKU
-        # self.product_single_dict["Link"] = one_link
-        # self.product_single_dict["UUID"] = uuid.uuid4().hex
-        # self.product_single_dict["Product_Type"] = self.product_type
-        # return self.product_single_dict
 
     def store_one_data(self,single_product_list) -> dict:
         self.product_single_dict = {}
@@ -161,8 +151,7 @@ class Scraper:
         self.product_single_dict["Link"] = single_product_list[5]
         self.product_single_dict["UUID"] = single_product_list[6]
         self.product_single_dict["Product_Type"] = single_product_list[7]
-        return self.product_single_dict
-        
+        return self.product_single_dict       
 
     def get_all_product_by_catogary(self, list_catogary):
         """
