@@ -24,25 +24,24 @@ import time
 
 class Scraper:
 
-    def __init__(self) -> webdriver.Chrome():
+    def __init__(self, url: str = "https://store.eu.square-enix-games.com/en_GB/") -> webdriver.Chrome():
         """
         Initialize the webpage and all the atributes
         """
         self.age_restriction_pass = False
         self.driver = webdriver.Chrome() 
-        self.URL = "https://store.eu.square-enix-games.com/en_GB/"
-        self.driver.get(self.URL)
+        self.driver.get(url)
         self.delay = 10
         pass 
 
-    def accept_cookies(self):
+    def accept_cookies(self, xpath: str = '//*[@id="onetrust-accept-btn-handler"]'):
         """
         Accept the cookie appear
         """
         try:
-            WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
+            #WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-banner-sdk"]')))
             #driver.switch_to.frame('onetrust-banner-sdk')
-            accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, '//*[@id="onetrust-accept-btn-handler"]')))
+            accept_cookies_button = WebDriverWait(self.driver, self.delay).until(EC.presence_of_element_located((By.XPATH, xpath)))
             time.sleep(1)
             accept_cookies_button.click()
         except TimeoutException:
