@@ -17,4 +17,4 @@
 ## Milestone 3: Refractoring the code and unit testing
 
 - Clean up the code and getting rid of duplicated code.
-- Doing unit testing making sure the output is correct.
+- Doing unit testing making sure the output is correct on a different file.
