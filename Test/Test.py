@@ -1,9 +1,7 @@
+from Project import Scraper
 import unittest
-from unittest.mock import Mock
-from Scraper import Scraper
 
 class Test_Scraper(unittest.TestCase):
-    
     def setUp(self) -> None:
         self.product = Scraper()
         return super().setUp()
@@ -25,5 +23,5 @@ class Test_Scraper(unittest.TestCase):
     def tearDown(self) -> None:
         del self.product
         return super().tearDown()
-if __name__ == "__main__":
-    unittest.main(exit=True)
+    pass
+unittest.main(argv=[''], verbosity=0 ,exit=False)

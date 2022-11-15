@@ -20,6 +20,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.chrome.options import Options
 import time
 
 class Scraper:
@@ -29,7 +30,9 @@ class Scraper:
         Initialize the webpage and all the atributes
         """
         self.age_restriction_pass = False
-        self.driver = webdriver.Chrome() 
+        options = Options()
+        options.headless = True
+        self.driver = webdriver.Chrome(options=options) 
         self.driver.get(url)
         self.delay = 10
         pass 
