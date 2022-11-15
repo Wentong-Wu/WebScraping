@@ -18,3 +18,5 @@
 
 - Clean up the code and getting rid of duplicated code.
 - Doing unit testing making sure the output is correct on a unit testing file.
+
+## Closing Project - Website has bot detector (cloudfront). Re writing code from scratch...
