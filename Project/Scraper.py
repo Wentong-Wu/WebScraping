@@ -103,9 +103,10 @@ class Scraper:
         #Save images into images folder
         base = Path('images')
         base.mkdir(exist_ok=True)
-        filename = os.path.join(base, ""+prod_sku+".jpg")
+        opener = urllib.request.URLopener()
+        opener.addheader('User-Agent', 'Mozilla/5.0')
         for imglink in prod_image:
-            urllib.request.urlretrieve(imglink,filename)
+            filename, headers = opener.retrieve(imglink,os.path.join(base, ""+prod_sku+".jpg"))
         
     def get_one_data(self, one_link) -> dict:
         """
